@@ -1,4 +1,4 @@
-# MobiVerse: LLM-powered Multi-Agent Traffic Simulation
+# MobiVerse: Scaling Urban Mobility Simulation with Hybrid Lightweight Domain-Specific Generator and Large Language Models
 
 ## Demo Video
 [![Mobiverse Demo Video](resources/images/video_cover.png)](resources/videos/mobiverse_demo.mp4)
@@ -7,7 +7,7 @@
 
 ## Overview
 
-Mobiverse is an intelligent traffic simulation system that combines SUMO (Simulation of Urban MObility) with LLM-powered route planning to simulate and analyze human mobility patterns. The system focuses on the Westwood area of Los Angeles, providing real-time route modification and traffic analysis capabilities.
+MobiVerse is an advanced urban mobility simulation platform that leverages Large Language Models (LLMs) to simulate human mobility decision-making processes. By combining SUMO (Simulation of Urban MObility) with AI-driven behavioral modeling, the system captures how individuals make complex mobility choices in response to dynamic urban environments. Rather than simply modeling traffic flow, MobiVerse focuses on understanding and predicting the decision-making patterns that drive human mobility, incorporating demographic factors, personal preferences, and real-time environmental changes to create realistic agent behaviors.
 
 <div align="center">
 <img src="resources/images/flow_diagram_1.png" alt="Mobiverse UI showing interactive route modification, simulation environment, and realtime agent monitoring" height="300"/>
@@ -50,25 +50,25 @@ mobiverse/
 <em>System architecture with an example of a college student reacting to different kinds of environment changes</em>
 </div>
 
-### 2. Traffic Impact Analysis
+### 2. Mobility Pattern Analysis
 
-- **Scenario**: Analyze traffic patterns by varying agent density and distribution across different areas
-- **Steps**: Increase agent count in specific zones → Monitor congestion formation → Analyze bottlenecks and capacity limits
-- **Applications**: Urban planning, traffic optimization, infrastructure capacity assessment
+- **Scenario**: Analyze mobility decision patterns by varying agent density and demographic distribution across different areas
+- **Steps**: Configure agent demographics and density in specific zones → Monitor decision-making patterns → Analyze mobility choices and behavioral adaptations
+- **Applications**: Urban mobility planning, transportation equity analysis, behavioral pattern recognition
 
 <div align="center">
-<img src="resources/images/traffic_impact.png" alt="Traffic impact analysis" height="300"/>
+<img src="resources/images/student_schedule.png" alt="Student daily schedule showing mobility patterns" height="300"/>
 </div>
 
 <div align="center">
-<em>Traffic density analysis showing congestion patterns and bottleneck formation</em>
+<em>Daily schedule of a student showing mobility decision patterns and activity chains</em>
 </div>
 
-### 3. Event-Based Route Modification
+### 3. Event-Based Decision Adaptation
 
-- **Scenario**: Modify agent behavior based on real-world events
-- **Steps**: Select agent → Enter event description → LLM generates new route
-- **Applications**: Special events, store closures, weather incidents
+- **Scenario**: Simulate how agents adapt their mobility decisions based on real-world events and personal circumstances
+- **Steps**: Select agent → Enter event description → LLM generates personalized behavioral response and route modification
+- **Applications**: Crisis response planning, event impact assessment, personalized mobility services
 
 <div align="center">
 <img src="resources/images/heat_map.png" alt="Vehicle density heat map comparison" height="300"/>
