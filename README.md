@@ -7,18 +7,20 @@
 
 ## Overview
 
-MobiVerse is an advanced urban mobility simulation platform that leverages Large Language Models (LLMs) to simulate human mobility decision-making processes. By combining SUMO (Simulation of Urban MObility) with AI-driven behavioral modeling, the system captures how individuals make complex mobility choices in response to dynamic urban environments. Rather than simply modeling traffic flow, MobiVerse focuses on understanding and predicting the decision-making patterns that drive human mobility, incorporating demographic factors, personal preferences, and real-time environmental changes to create realistic agent behaviors.
+MobiVerse is an advanced urban mobility simulation platform that integrates Large Language Models (LLMs) with microscopic traffic simulation to enable realistic human mobility decision-making at scale. The platform addresses critical limitations in existing mobility simulation approaches by providing a flexible framework that supports various activity generation methods while incorporating LLM-powered behavioral adaptation. MobiVerse serves as a comprehensive research platform where users can integrate their own mobility modeling algorithms and test them with dynamic behavioral adaptation capabilities, enabling scalable simulations of up to tens of thousands of agents that can respond to environmental feedback in real-time.
 
 <div align="center">
 <img src="resources/images/flow_diagram_1.png" alt="Mobiverse UI showing interactive route modification, simulation environment, and realtime agent monitoring" height="300"/>
 </div>
 
 ### Key Features
-- **Real-time Traffic Simulation**: SUMO-based microscopic traffic modeling
-- **LLM-Powered Route Planning**: AI-driven route modifications based on events
-- **Interactive Monitoring**: GUI for real-time vehicle tracking and control
-- **Dynamic Event Handling**: Road closures, traffic incidents, and rerouting
-- **Demographic Modeling**: Agent behavior based on demographic characteristics
+- **Flexible Algorithm Integration**: Open platform supporting various mobility modeling approaches - bring your own activity generation algorithms
+- **Scalable Simulation**: Handles up to 53,000 agents with up to 20,000 simultaneously active in real-time simulation
+- **LLM-Powered Behavioral Adaptation**: Agents dynamically respond to congestion, road closures, and special events through contextual reasoning
+- **Real-time Traffic Simulation**: SUMO-based microscopic traffic modeling with bidirectional feedback integration
+- **Interactive Research Environment**: GUI for real-time monitoring, experimental intervention, and algorithm testing
+- **Comprehensive Demographic Modeling**: Agent behavior based on socioeconomic profiles including age, income, education, and employment status
+- **Modular Design**: Easy integration of custom algorithms for population synthesis, activity generation, and behavioral modeling
 
 ### Project Structure
 ```
@@ -37,9 +39,20 @@ mobiverse/
 ```
 
 ## Use Cases
-### 1. Demographic Behavior Study
-- **Scenario**: Analyze how agent demographics (age, education, income, work status) influence activity chain modifications in response to environmental changes
-- **Steps**: Configure demographic profiles → Introduce environment changes (construction, events, road closures) → LLM generates personalized behavioral responses → Compare adaptation patterns across demographics
+### 1. Algorithm Development and Testing Platform
+- **Scenario**: Test and validate your mobility modeling algorithms within a comprehensive simulation environment
+- **Steps**: Integrate your activity generation method → Apply LLM-powered behavioral adaptation → Evaluate performance at scale → Compare with baseline approaches
+- **Applications**: Algorithm development, model validation, comparative studies, research reproducibility
+
+
+### 2. Large-Scale Urban Mobility Simulation
+- **Scenario**: Simulate realistic mobility patterns for entire urban populations using various modeling approaches
+- **Steps**: Configure activity generation method → Execute real-time traffic simulation → Monitor system-level performance and behavioral patterns
+- **Applications**: Transportation system planning, infrastructure capacity analysis, policy evaluation at urban scale
+
+### 3. Demographic Behavior Analysis
+- **Scenario**: Analyze how socioeconomic characteristics (age, education, income, employment status) influence mobility decisions and adaptation patterns
+- **Steps**: Configure diverse demographic profiles → Introduce environmental changes → LLM generates personalized behavioral responses → Analyze adaptation patterns across demographics
 - **Applications**: Transportation equity research, demographic-aware urban planning, personalized mobility services
 
 <div align="center">
@@ -50,11 +63,12 @@ mobiverse/
 <em>System architecture with an example of a college student reacting to different kinds of environment changes</em>
 </div>
 
-### 2. Mobility Pattern Analysis
+### 4. Dynamic Behavioral Adaptation Study
 
-- **Scenario**: Analyze mobility decision patterns by varying agent density and demographic distribution across different areas
-- **Steps**: Configure agent demographics and density in specific zones → Monitor decision-making patterns → Analyze mobility choices and behavioral adaptations
-- **Applications**: Urban mobility planning, transportation equity analysis, behavioral pattern recognition
+- **Scenario**: Test agent adaptation to real-time environmental changes using LLM-powered decision making with your own base activity generation
+- **Steps**: Initialize activity chains using your algorithm → Introduce dynamic events (congestion, closures, special events) → LLM processes environmental feedback → Observe behavioral modifications and system responses
+- **Applications**: Crisis response planning, adaptive transportation systems, behavioral pattern recognition, algorithm validation under dynamic conditions
+- **Processing Rate**: 2,050 agents per minute for activity replanning, 200 agents per minute for route computation
 
 <div align="center">
 <img src="resources/images/student_schedule.png" alt="Student daily schedule showing mobility patterns" height="300"/>
@@ -64,11 +78,12 @@ mobiverse/
 <em>Daily schedule of a student showing mobility decision patterns and activity chains</em>
 </div>
 
-### 3. Event-Based Decision Adaptation
+### 5. Special Event Impact Analysis
 
-- **Scenario**: Simulate how agents adapt their mobility decisions based on real-world events and personal circumstances
-- **Steps**: Select agent → Enter event description → LLM generates personalized behavioral response and route modification
-- **Applications**: Crisis response planning, event impact assessment, personalized mobility services
+- **Scenario**: Model large-scale event impacts on urban mobility patterns (e.g., Olympic Games, concerts, sports events) using your mobility models
+- **Steps**: Apply your activity generation approach → Configure event parameters (location, capacity, demographics) → Calculate attendee selection → Simulate traffic pattern changes → Analyze system-wide impacts
+- **Applications**: Event planning, traffic management, infrastructure assessment, testing event-response algorithms
+- **Case Study**: LA 2028 Olympic Soccer Final simulation with 1,000 attendees demonstrating platform capabilities
 
 <div align="center">
 <img src="resources/images/heat_map.png" alt="Vehicle density heat map comparison" height="300"/>
@@ -78,10 +93,10 @@ mobiverse/
 <em>Vehicle density heat map at 9:30 am: (a) baseline traffic at 9:30am without event, (b) traffic at 9:30am during the Olympic soccer event</em>
 </div>
 
-### 4. Emergency Response Simulation
-- **Scenario**: Test evacuation routes and emergency vehicle access
-- **Steps**: Create road closures → Monitor agent rerouting → Analyze bottlenecks
-- **Applications**: Disaster preparedness, emergency planning
+### 6. Emergency Response and Infrastructure Resilience
+- **Scenario**: Test system resilience to infrastructure disruptions and emergency situations with your mobility algorithms
+- **Steps**: Initialize with your activity generation method → Implement road closures or incidents → LLM-based agent replanning → Monitor rerouting patterns → Analyze network bottlenecks and recovery
+- **Applications**: Disaster preparedness, emergency planning, infrastructure resilience assessment, algorithm stress testing
 
 <div align="center">
 <img src="resources/images/road_closure.png" alt="Road closure simulation" width="300"/>
@@ -96,7 +111,6 @@ mobiverse/
 - **SUMO**: 1.8.0+
 - **Python**: 3.7+
 - **OpenAI API Key**: For LLM route modifications
-- **System**: 4GB RAM, OpenGL support
 
 ### 1. Clone SUMO
 ```bash
@@ -131,31 +145,34 @@ echo "your-openai-api-key-here" > westwood_project/open_ai_api_key.txt
 
 ## QuickStart
 
-### 1. Generate Routes
+### 1. Generate Activity Chains and Routes
 ```bash
 cd westwood_project
 
-# Generate agent sequences
+# Generate agent activity sequences using default method (up to 53,000 agents)
+# Or integrate your own activity generation algorithm here
 python create_routes.py -n 100 --generate-sequences
 
-# Generate SUMO routes with time window
+# Generate SUMO-compatible routes with time window (8:00 AM - 12:00 PM)
 python create_routes.py --start-time 28800 --end-time 43200
 ```
 
-### 2. Run Simulation
+### 2. Run Simulation with LLM Integration
 ```bash
-# Terminal 1: Start SUMO controller
+# Terminal 1: Start SUMO controller with LLM behavioral adaptation
 python dynamic_control.py
 
-# Terminal 2: Launch trajectory viewer
+# Terminal 2: Launch interactive visualization dashboard
 python trajectory_viewer.py
 ```
 
-### 3. Interact with Simulation
-1. Click "Connect" in the trajectory viewer
-2. Select a vehicle from the dropdown menu
-3. Click "Track Agent" to monitor the selected vehicle
-4. Use route modification and road closure features as needed
+### 3. Test Your Algorithms and Interact with Simulation
+1. Click "Connect" in the trajectory viewer to establish bidirectional communication
+2. Select agents from the dropdown menu to monitor individual behaviors  
+3. Click "Track Agent" to observe how your activity generation performs with LLM adaptation
+4. Introduce environmental changes: road closures, special events, or traffic incidents
+5. Observe real-time LLM-powered behavioral adaptations applied to your base activity chains
+6. Compare performance and behavioral realism of different activity generation approaches
 
 ## Customize
 
@@ -184,29 +201,39 @@ netconvert --osm new_area.osm -o new_area.net.xml \
 - `westwood_project/sumo_config/westwood.net.xml`: Road network definition
 - `westwood_project/sumo_config/westwood.sumocfg`: Main SUMO configuration
 
-### 2. Activity Chain Generation
+### 2. Activity Chain Generation - Bring Your Own Algorithm!
 
-The current activity chain generation uses a simple rule-based approach. You can substitute this with your own generation method:
+MobiVerse is designed as a flexible platform where you can integrate and test your own activity generation algorithms:
 
-1. **Generate your own agent sequences** using your preferred method (machine learning, survey data, etc.)
-2. **Save as JSON format** in `westwood_project/data/agent_sequences.json`:
+1. **Default Implementation**: Includes a baseline activity generation method for demonstration
+2. **Your Algorithm Here**: Easy integration of machine learning models, survey-based methods, rule-based systems, or any custom approach
+3. **Data Format**: Standard JSON format in `westwood_project/data/agent_sequences.json` - compatible with any generation method
+4. **LLM Integration**: The LLM-powered behavioral adaptation layer works with any base activity chain format
+5. **Comparative Testing**: Run multiple algorithms and compare their performance with LLM adaptation
 
-3. **Generate SUMO routes** from your sequences:
 ```bash
+# Replace the default generation with your algorithm
+# Modify create_routes.py or create your own generation script
 python create_routes.py --generate-sequences
+
+# Test how your algorithm performs with LLM behavioral adaptation
+python dynamic_control.py
 ```
 
-### 3. LLM Prompts and Route Modification
+### 3. LLM-Powered Activity Chain Modification
 
-#### Customize Route Modification Prompts
+#### Customize Behavioral Adaptation Prompts
 **File**: `westwood_project/utilities/prompt_manager.py`
 
-Modify the prompt templates, event-specific handling, and LLM model parameters to customize how agents respond to different situations and events.
+The LLM component uses structured prompts that include agent demographics, environmental conditions, and contextual information to generate realistic behavioral adaptations.
 
 #### Key Customization Areas:
-- **Prompt templates**: Main prompt structure for route modification
-- **Event types**: Custom event handling (construction, weather, incidents)
-- **Model settings**: OpenAI model parameters (model type, temperature, max tokens)
+- **Prompt templates**: Structured prompts for different adaptation scenarios (road closures, congestion, events)
+- **Demographic integration**: How agent characteristics influence decision-making
+- **Environmental feedback**: Real-time traffic and infrastructure condition integration
+- **Event handling**: Special event processing with interest scoring models
+- **Model settings**: OpenAI model parameters optimized for behavioral reasoning
+- **Parallel processing**: Thread pool configuration for handling thousands of agents
 
 ### 4. Visualization and GUI
 
