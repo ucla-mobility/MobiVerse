@@ -8,7 +8,7 @@
 
 ## Overview
 
-MobiVerse is an advanced urban mobility simulation platform that integrates Large Language Models (LLMs) with microscopic traffic simulation to enable realistic human mobility decision-making at scale. The platform addresses critical limitations in existing mobility simulation approaches by providing a flexible framework that supports various activity generation methods while incorporating LLM-powered behavioral adaptation. MobiVerse serves as a comprehensive research platform where users can integrate their own mobility modeling algorithms and test them with dynamic behavioral adaptation capabilities, enabling scalable simulations of up to tens of thousands of agents that can respond to environmental feedback in real-time.
+MobiVerse is an advanced urban mobility simulation platform that integrates Large Language Models (LLMs) with transportation simulation to enable realistic human mobility decision-making at scale. The platform addresses critical limitations in existing mobility simulation approaches by providing a flexible framework that supports various activity and decision generation methods while incorporating LLM-powered behavioral adaptation. MobiVerse serves as a comprehensive research platform where users can integrate their own mobility modeling algorithms and test them with dynamic behavioral adaptation capabilities, enabling scalable simulations of large numbers of agents at city- and region-scale that can respond to environmental feedback in real time.
 
 <div align="center">
 <img src="resources/images/flow_diagram_1.png" alt="Mobiverse UI showing interactive route modification, simulation environment, and realtime agent monitoring" height="300"/>
@@ -17,22 +17,21 @@ MobiVerse is an advanced urban mobility simulation platform that integrates Larg
 ### Key Features
 
 #### **Intelligent AI Agents**
-- Unlike traditional agent-based models, MobiVerse features LLM-powered agents with vivid, human-like decision-making capabilities
-- Agents autonomously adapt behavior based on contextual understanding and real-world reasoning
-- Revolutionary approach combining lightweight generators with LLM intelligence
+- Unlike traditional agent-based models, MobiVerse features LLM- and domain-specific generator-powered agents with vivid, human-like decision-making capabilities
+- Agents autonomously adapt behavior based on highly complex contextual understanding and real-world reasoning, not possible with traditional statistical behavoral models
+- Revolutionary approach of double-system ("fast and slow") hybrid architecture in decision making, combining lightweight generators with LLM intelligence
 
 #### **City-Scale Agent-Based Simulation**
 - Large-scale agent-based simulations at the city level
-- Demonstrated with 50,000+ intelligent agents in Westwood community on a personal PC
-- Scalable to metropolitan areas with increased computational resources
+- Scalable to large numbers of agents at ralistic city scale with increased computational resources
 
 #### **LLM-Driven Behavioral Generation**
-- Agents leverage large language model capabilities for contextual reasoning
-- Generate realistic responses to dynamic scenarios that traditional platforms cannot replicate
-- Enable autonomous decisions reflecting genuine human mobility patterns
+- Agents leverage large language models and other specific generators for contextual reasoning and decision making
+- Generate realistic responses to highly complex, dynamic scenarios that traditional platforms cannot replicate
+- Enable autonomous decisions that can accurately genuine human mobility patterns
 
 #### **Bidirectional Real-Time Integration**
-- Seamless bidirectional information sharing between SUMO and LLM-based algorithms
+- Seamless bidirectional information sharing between LLM-based algorithms and enhanced SUMO simulation with richer contextual informaiton
 - Captures real-time traffic flow, agent positions, and environmental status
 - Enables dynamic behavioral adaptation based on live simulation feedback
 
