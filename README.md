@@ -1,4 +1,5 @@
-# MobiVerse: Scaling Urban Mobility Simulation with Hybrid Lightweight Domain-Specific Generator and Large Language Models
+# MobiVerse: Scaling Urban Mobility Simulation with Hybrid Lightweight Domain-Specific Generator and Large Language Models [[Paper Link]](https://arxiv.org/abs/2506.21784)
+
 
 ## Demo Video
 [![Mobiverse Demo Video](resources/images/video_cover.png)](resources/videos/mobiverse_demo.mp4)
@@ -14,13 +15,36 @@ MobiVerse is an advanced urban mobility simulation platform that integrates Larg
 </div>
 
 ### Key Features
-- **Flexible Algorithm Integration**: Open platform supporting various mobility modeling approaches - bring your own activity generation algorithms
-- **Scalable Simulation**: Handles up to 53,000 agents with up to 20,000 simultaneously active in real-time simulation
-- **LLM-Powered Behavioral Adaptation**: Agents dynamically respond to congestion, road closures, and special events through contextual reasoning
-- **Real-time Traffic Simulation**: SUMO-based microscopic traffic modeling with bidirectional feedback integration
-- **Interactive Research Environment**: GUI for real-time monitoring, experimental intervention, and algorithm testing
-- **Comprehensive Demographic Modeling**: Agent behavior based on socioeconomic profiles including age, income, education, and employment status
-- **Modular Design**: Easy integration of custom algorithms for population synthesis, activity generation, and behavioral modeling
+
+#### **Intelligent AI Agents**
+- Unlike traditional agent-based models, MobiVerse features LLM-powered agents with vivid, human-like decision-making capabilities
+- Agents autonomously adapt behavior based on contextual understanding and real-world reasoning
+- Revolutionary approach combining lightweight generators with LLM intelligence
+
+#### **City-Scale Agent-Based Simulation**
+- Large-scale agent-based simulations at the city level
+- Demonstrated with 50,000+ intelligent agents in Westwood community on a personal PC
+- Scalable to metropolitan areas with increased computational resources
+
+#### **LLM-Driven Behavioral Generation**
+- Agents leverage large language model capabilities for contextual reasoning
+- Generate realistic responses to dynamic scenarios that traditional platforms cannot replicate
+- Enable autonomous decisions reflecting genuine human mobility patterns
+
+#### **Bidirectional Real-Time Integration**
+- Seamless bidirectional information sharing between SUMO and LLM-based algorithms
+- Captures real-time traffic flow, agent positions, and environmental status
+- Enables dynamic behavioral adaptation based on live simulation feedback
+
+#### **Modular Design Architecture**
+- Highly modular framework for easy algorithm integration
+- Support custom population synthesis, activity generation, and behavioral modeling
+- Maintains seamless LLM integration across all components
+
+#### **Interactive Research Environment**
+- Real-time GUI for monitoring and experimental intervention
+- Algorithm testing with intelligent agent behavior visualization
+- Open platform supporting various mobility modeling approaches
 
 ### Project Structure
 ```
@@ -39,70 +63,80 @@ mobiverse/
 ```
 
 ## Use Cases
-### 1. Algorithm Development and Testing Platform
-- **Scenario**: Test and validate your mobility modeling algorithms within a comprehensive simulation environment
-- **Steps**: Integrate your activity generation method → Apply LLM-powered behavioral adaptation → Evaluate performance at scale → Compare with baseline approaches
-- **Applications**: Algorithm development, model validation, comparative studies, research reproducibility
 
+### 1. High-Dimensional Mobility Algorithm Optimization
+- **Problem**: Traditional mobility models struggle with complex parameter spaces and high-dimensional decision-making scenarios
+- **Solution**: Navigate complex parameter spaces using MobiVerse's LLM-powered behavioral reasoning combined with your custom algorithms
+- **Steps**: Define parameter space boundaries → Integrate your base activity generation → Deploy LLM-guided optimization → Evaluate multi-objective performance metrics → Validate against real-world behavioral patterns
+- **Applications**: Algorithm hyperparameter tuning, multi-criteria optimization, behavioral model calibration, performance benchmarking
 
-### 2. Large-Scale Urban Mobility Simulation
-- **Scenario**: Simulate realistic mobility patterns for entire urban populations using various modeling approaches
-- **Steps**: Configure activity generation method → Execute real-time traffic simulation → Monitor system-level performance and behavioral patterns
-- **Applications**: Transportation system planning, infrastructure capacity analysis, policy evaluation at urban scale
+### 2. City-Scale Population Synthesis and Validation
+- **Problem**: Scaling population synthesis algorithms to city-level while maintaining behavioral realism and computational efficiency
+- **Solution**: Leverage MobiVerse's hybrid architecture to generate and validate large-scale populations with intelligent behavioral adaptation
+- **Steps**: Deploy population synthesis at scale → Apply demographic stratification → Generate base activity chains → Enable LLM-powered behavioral adaptation → Validate against census and survey data
+- **Applications**: Urban planning, transportation demand modeling, policy impact assessment, demographic representation analysis
 
-### 3. Demographic Behavior Analysis
-- **Scenario**: Analyze how socioeconomic characteristics (age, education, income, employment status) influence mobility decisions and adaptation patterns
-- **Steps**: Configure diverse demographic profiles → Introduce environmental changes → LLM generates personalized behavioral responses → Analyze adaptation patterns across demographics
-- **Applications**: Transportation equity research, demographic-aware urban planning, personalized mobility services
-
-<div align="center">
-<img src="resources/images/flow_diagram_2.png" alt="System architecture with demographic behavior example" height="500"/>
-</div>
-
-<div align="center">
-<em>System architecture with an example of a college student reacting to different kinds of environment changes</em>
-</div>
-
-### 4. Dynamic Behavioral Adaptation Study
-
-- **Scenario**: Test agent adaptation to real-time environmental changes using LLM-powered decision making with your own base activity generation
-- **Steps**: Initialize activity chains using your algorithm → Introduce dynamic events (congestion, closures, special events) → LLM processes environmental feedback → Observe behavioral modifications and system responses
-- **Applications**: Crisis response planning, adaptive transportation systems, behavioral pattern recognition, algorithm validation under dynamic conditions
-- **Processing Rate**: 2,050 agents per minute for activity replanning, 200 agents per minute for route computation
+Figure 1 illustrates how individual agents structure their daily activities and adapt their mobility patterns based on personal characteristics and environmental feedback.
 
 <div align="center">
 <img src="resources/images/student_schedule.png" alt="Student daily schedule showing mobility patterns" height="300"/>
 </div>
 
 <div align="center">
-<em>Daily schedule of a student showing mobility decision patterns and activity chains</em>
+<em>Figure 1: Daily schedule of a student showing mobility decision patterns and activity chains</em>
 </div>
 
-### 5. Special Event Impact Analysis
+### 3. Dynamic Event Response and Infrastructure Analysis
 
-- **Scenario**: Model large-scale event impacts on urban mobility patterns (e.g., Olympic Games, concerts, sports events) using your mobility models
-- **Steps**: Apply your activity generation approach → Configure event parameters (location, capacity, demographics) → Calculate attendee selection → Simulate traffic pattern changes → Analyze system-wide impacts
-- **Applications**: Event planning, traffic management, infrastructure assessment, testing event-response algorithms
-- **Case Study**: LA 2028 Olympic Soccer Final simulation with 1,000 attendees demonstrating platform capabilities
+Unlike traditional methods that rely on pre-programmed rules and historical patterns, MobiVerse's LLM-empowered agents can intelligently handle unforeseen scenarios through contextual reasoning and adaptive decision-making.
+
+#### 3.1 Real-Time Behavioral Adaptation to Unforeseen Events
+- **Problem**: Traditional mobility models fail when encountering novel scenarios not present in training data or rule sets
+- **Solution**: LLM-powered agents use contextual reasoning to generate appropriate responses to unprecedented situations, adapting behavior based on real-time environmental understanding rather than pre-defined rules
+- **Key Advantage**: Handles unforeseen events (e.g., specific store closures, sudden venue changes, unexpected service disruptions, new business openings) that traditional rule-based systems cannot anticipate
+- **Processing Rate**: 2,050 agents per minute for activity replanning, 200 agents per minute for route computation
+- **Applications**: Crisis response planning, adaptive transportation systems, novel scenario modeling
+
+As shown in Figure 2, the system architecture demonstrates how demographic characteristics influence agent decision-making through LLM-powered reasoning when responding to environmental changes.
+
+<div align="center">
+<img src="resources/images/flow_diagram_2.png" alt="System architecture with demographic behavior example" height="500"/>
+</div>
+
+<div align="center">
+<em>Figure 2: System architecture with an example of a college student reacting to different kinds of environment changes</em>
+</div>
+
+#### 3.2 Large-Scale Event Impact Modeling for Novel Scenarios
+- **Problem**: Traditional models struggle with unique events that have no historical precedent or complex multi-factor interactions
+- **Solution**: LLM-empowered agents reason about novel event characteristics, generating realistic behavioral responses to unprecedented large-scale scenarios without requiring extensive historical calibration data
+- **Key Advantage**: Models unforeseen events affecting specific demographic groups or local populations (e.g., cultural festivals targeting specific communities, age-specific events, neighborhood-specific gatherings, pop-up markets in residential areas) through intelligent reasoning rather than pattern matching
+- **Case Study**: LA 2028 Olympic Soccer Final simulation with 1,000+ attendees demonstrating platform capabilities for novel event scenarios
+- **Applications**: Event planning for unprecedented scenarios, demographic-specific event modeling, local community impact analysis
+
+Figure 3 demonstrates the system's capability to model significant traffic pattern changes during major events, showing clear differences in vehicle density distributions.
 
 <div align="center">
 <img src="resources/images/heat_map.png" alt="Vehicle density heat map comparison" height="300"/>
 </div>
 
 <div align="center">
-<em>Vehicle density heat map at 9:30 am: (a) baseline traffic at 9:30am without event, (b) traffic at 9:30am during the Olympic soccer event</em>
+<em>Figure 3: Vehicle density heat map at 9:30 am: (a) baseline traffic without event, (b) traffic during the Olympic soccer event</em>
 </div>
 
-### 6. Emergency Response and Infrastructure Resilience
-- **Scenario**: Test system resilience to infrastructure disruptions and emergency situations with your mobility algorithms
-- **Steps**: Initialize with your activity generation method → Implement road closures or incidents → LLM-based agent replanning → Monitor rerouting patterns → Analyze network bottlenecks and recovery
-- **Applications**: Disaster preparedness, emergency planning, infrastructure resilience assessment, algorithm stress testing
+#### 3.3 Infrastructure Resilience and Emergency Response to Unforeseen Failures
+- **Problem**: Traditional models cannot handle novel infrastructure failure patterns or cascading effects not seen in historical data
+- **Solution**: LLM-based agents autonomously reason about unforeseen infrastructure disruptions, generating contextually appropriate responses to novel failure scenarios through intelligent understanding rather than pre-programmed emergency protocols
+- **Key Advantage**: Responds to unprecedented infrastructure failures and road closure events (e.g., unexpected bridge collapses, water main breaks causing road closures, power outages affecting traffic signals, construction equipment blocking lanes) by reasoning about the situation rather than following rigid contingency plans
+- **Applications**: Novel disaster preparedness, unforeseen emergency scenario planning, adaptive infrastructure resilience assessment
+
+Figure 4 shows how the system models traffic rerouting patterns when infrastructure disruptions occur, enabling comprehensive resilience analysis.
 
 <div align="center">
 <img src="resources/images/road_closure.png" alt="Road closure simulation" width="300"/>
 </div>
 <div align="center">
-<em>Road closure simulation showing traffic rerouting patterns</em>
+<em>Figure 4: Road closure simulation with traffic rerouting patterns and network adaptation</em>
 </div>
 
 ## Installation
@@ -272,16 +306,42 @@ The LLM component uses structured prompts that include agent demographics, envir
 - Reduce agent count (`-n` parameter) for better performance
 - Adjust simulation step length in configuration
 
+## Version History
+
+### v1.0.0 (Current)
+- Initial release with hybrid LLM-powered mobility simulation
+- Support for 53,000+ agents with real-time SUMO integration
+- Interactive GUI and Westwood case study implementation
+
+## Contributors
+
+MobiVerse is mainly supported by the [UCLA Mobility Lab](https://mobility-lab.seas.ucla.edu/).
+
+**Lab Principal Investigator:**
+- [Dr. Jiaqi Ma](https://samueli.ucla.edu/people/jiaqi-ma/)
+
+**Project Lead:**
+- [Yifan Liu](https://bmmliu.github.io/)
+
+**Team Members:**
+- [Xishun Liao](https://xishunliao.github.io/)
+- [Haoxuan Ma](https://linkedin.com/in/haoxuan-ma)
+- [Jonathan Liu](https://www.linkedin.com/in/jonathanhliu21/)
+- [Rohan Jadhav](https://www.linkedin.com/in/rohanj26/)
+
 ## Citation
 
 If you use MobiVerse in your research, please cite our paper:
 
 ```bibtex
-@article{liu2025mobiverse,
+@inproceedings{liu2025mobiverse,
   title={MobiVerse: Scaling Urban Mobility Simulation with Hybrid Lightweight Domain-Specific Generator and Large Language Models},
   author={Liu, Yifan and Liao, Xishun and Ma, Haoxuan and Liu, Jonathan and Jadhav, Rohan and Ma, Jiaqi},
-  journal={arXiv preprint arXiv:2506.21784},
-  year={2025}
+  booktitle={2025 IEEE 27th International Conference on Intelligent Transportation Systems (ITSC)},
+  year={2025},
+  organization={IEEE},
+  note={Accepted for publication},
+  url={https://arxiv.org/abs/2506.21784}
 }
 ```
 
