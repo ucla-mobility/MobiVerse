@@ -1,0 +1,586 @@
+[
+  {
+    "id": "CAVA",
+    "original_name": "CAVA",
+    "type": "restaurant",
+    "edge_id": "957690880#0",
+    "lat": 34.0611701,
+    "lon": -118.4462
+  },
+  {
+    "id": "Lulu",
+    "original_name": "Lulu",
+    "type": "restaurant",
+    "edge_id": "607194239#0",
+    "lat": 34.0596584,
+    "lon": -118.4435729
+  },
+  {
+    "id": "Junbi",
+    "original_name": "Junbi",
+    "type": "cafe",
+    "edge_id": "603531529#5",
+    "lat": 34.0623536,
+    "lon": -118.4476285
+  },
+  {
+    "id": "Frida",
+    "original_name": "Frida",
+    "type": "restaurant",
+    "edge_id": "-825533534#3",
+    "lat": 34.0602888,
+    "lon": -118.4426322
+  },
+  {
+    "id": "Tulsi",
+    "original_name": "Tulsi",
+    "type": "restaurant",
+    "edge_id": "-244373201#3",
+    "lat": 34.0593306,
+    "lon": -118.445157
+  },
+  {
+    "id": "Ralphs",
+    "original_name": "Ralphs",
+    "type": "restaurant",
+    "edge_id": "-250080658#4",
+    "lat": 34.0633324,
+    "lon": -118.4439456
+  },
+  {
+    "id": "Subway",
+    "original_name": "Subway",
+    "type": "restaurant",
+    "edge_id": "763033284#0",
+    "lat": 34.0593432,
+    "lon": -118.44468
+  },
+  {
+    "id": "Elysee",
+    "original_name": "Elysee",
+    "type": "cafe",
+    "edge_id": "288116297#0",
+    "lat": 34.0602729,
+    "lon": -118.4467449
+  },
+  {
+    "id": "Subway_2",
+    "original_name": "Subway (2)",
+    "type": "restaurant",
+    "edge_id": "398421187",
+    "lat": 34.0661453,
+    "lon": -118.446027
+  },
+  {
+    "id": "Attari",
+    "original_name": "Attari",
+    "type": "restaurant",
+    "edge_id": "13359403#2",
+    "lat": 34.0555915,
+    "lon": -118.4415056
+  },
+  {
+    "id": "Fellow",
+    "original_name": "Fellow",
+    "type": "restaurant",
+    "edge_id": "13377861#0",
+    "lat": 34.0611545,
+    "lon": -118.4445194
+  },
+  {
+    "id": "Alfred",
+    "original_name": "Alfred",
+    "type": "cafe",
+    "edge_id": "44651956#0",
+    "lat": 34.0598357,
+    "lon": -118.4445342
+  },
+  {
+    "id": "Delphi",
+    "original_name": "Delphi",
+    "type": "restaurant",
+    "edge_id": "398424184#0",
+    "lat": 34.0554994,
+    "lon": -118.4421153
+  },
+  {
+    "id": "Denny_s",
+    "original_name": "Denny's",
+    "type": "restaurant",
+    "edge_id": "-825533534#3",
+    "lat": 34.0602095,
+    "lon": -118.443093
+  },
+  {
+    "id": "Rubio_s",
+    "original_name": "Rubio's",
+    "type": "restaurant",
+    "edge_id": "607283986#2",
+    "lat": 34.0701785,
+    "lon": -118.4442131
+  },
+  {
+    "id": "Trimana",
+    "original_name": "Trimana",
+    "type": "cafe",
+    "edge_id": "398529305#0",
+    "lat": 34.058313,
+    "lon": -118.444579
+  },
+  {
+    "id": "Pok__me",
+    "original_name": "Pok\u00e9 me",
+    "type": "restaurant",
+    "edge_id": "-398423167#1",
+    "lat": 34.0579278,
+    "lon": -118.443136
+  },
+  {
+    "id": "Gogobop",
+    "original_name": "Gogobop",
+    "type": "restaurant",
+    "edge_id": "-288116297#7",
+    "lat": 34.0614301,
+    "lon": -118.446433
+  },
+  {
+    "id": "Comoncy",
+    "original_name": "Comoncy",
+    "type": "cafe",
+    "edge_id": "763033297",
+    "lat": 34.0582289,
+    "lon": -118.44397
+  },
+  {
+    "id": "Profeta",
+    "original_name": "Profeta",
+    "type": "cafe",
+    "edge_id": "159608998#0",
+    "lat": 34.0603245,
+    "lon": -118.4441734
+  },
+  {
+    "id": "Plateia",
+    "original_name": "Plateia",
+    "type": "restaurant",
+    "edge_id": "495920254#0",
+    "lat": 34.0695878,
+    "lon": -118.4455404
+  },
+  {
+    "id": "Dunkin_",
+    "original_name": "Dunkin'",
+    "type": "restaurant",
+    "edge_id": "-603531527#1",
+    "lat": 34.0617563,
+    "lon": -118.4480539
+  },
+  {
+    "id": "Dipnmix",
+    "original_name": "Dipnmix",
+    "type": "restaurant",
+    "edge_id": "132495023#0",
+    "lat": 34.0627257,
+    "lon": -118.4481083
+  },
+  {
+    "id": "poi_7_Eleven",
+    "original_name": "7-Eleven",
+    "type": "restaurant",
+    "edge_id": "1055030390#0",
+    "lat": 34.0627383,
+    "lon": -118.445605
+  },
+  {
+    "id": "poi_7_Eleven_2",
+    "original_name": "7-Eleven (2)",
+    "type": "restaurant",
+    "edge_id": "-13359403#5",
+    "lat": 34.0552912,
+    "lon": -118.4412964
+  },
+  {
+    "id": "Maharaja",
+    "original_name": "Maharaja",
+    "type": "restaurant",
+    "edge_id": "398424182#0",
+    "lat": 34.0564982,
+    "lon": -118.4427211
+  },
+  {
+    "id": "Kreation",
+    "original_name": "Kreation",
+    "type": "restaurant",
+    "edge_id": "44651956#0",
+    "lat": 34.0601117,
+    "lon": -118.4448196
+  },
+  {
+    "id": "Mr__Rice",
+    "original_name": "Mr. Rice",
+    "type": "restaurant",
+    "edge_id": "-603531529#4",
+    "lat": 34.0622066,
+    "lon": -118.4466827
+  },
+  {
+    "id": "Egg_Tuck",
+    "original_name": "Egg Tuck",
+    "type": "restaurant",
+    "edge_id": "288116297#0",
+    "lat": 34.0610322,
+    "lon": -118.4474038
+  },
+  {
+    "id": "Wildbird",
+    "original_name": "Wildbird",
+    "type": "restaurant",
+    "edge_id": "244373201#0",
+    "lat": 34.0596397,
+    "lon": -118.4452072
+  },
+  {
+    "id": "Kazu_Nori",
+    "original_name": "Kazu Nori",
+    "type": "restaurant",
+    "edge_id": "-176996124#3",
+    "lat": 34.0600264,
+    "lon": -118.446099
+  },
+  {
+    "id": "Taco_Bell",
+    "original_name": "Taco Bell",
+    "type": "restaurant",
+    "edge_id": "603531529#0",
+    "lat": 34.0627296,
+    "lon": -118.4466237
+  },
+  {
+    "id": "Starbucks",
+    "original_name": "Starbucks",
+    "type": "cafe",
+    "edge_id": "610339130#0",
+    "lat": 34.0627064,
+    "lon": -118.443909
+  },
+  {
+    "id": "Naab_Caf_",
+    "original_name": "Naab Caf\u00e9",
+    "type": "restaurant",
+    "edge_id": "295003824#0",
+    "lat": 34.0573233,
+    "lon": -118.4431997
+  },
+  {
+    "id": "Tuck_Room",
+    "original_name": "Tuck Room",
+    "type": "restaurant",
+    "edge_id": "398527669#0",
+    "lat": 34.0591898,
+    "lon": -118.4414282
+  },
+  {
+    "id": "Don_Huang",
+    "original_name": "Don Huang",
+    "type": "restaurant",
+    "edge_id": "288116297#0",
+    "lat": 34.0605621,
+    "lon": -118.446996
+  },
+  {
+    "id": "ExtraMile",
+    "original_name": "ExtraMile",
+    "type": "restaurant",
+    "edge_id": "-129555455#2",
+    "lat": 34.0634437,
+    "lon": -118.4485622
+  },
+  {
+    "id": "Pokitomik",
+    "original_name": "Pokitomik",
+    "type": "restaurant",
+    "edge_id": "763033285#0",
+    "lat": 34.0599719,
+    "lon": -118.4452385
+  },
+  {
+    "id": "Bruin_Cafe",
+    "original_name": "Bruin Cafe",
+    "type": "cafe",
+    "edge_id": "55783710#0",
+    "lat": 34.072565,
+    "lon": -118.4503114
+  },
+  {
+    "id": "Mr__Noodle",
+    "original_name": "Mr. Noodle",
+    "type": "restaurant",
+    "edge_id": "-13442541#3",
+    "lat": 34.0629463,
+    "lon": -118.4468728
+  },
+  {
+    "id": "Lazy_Daisy",
+    "original_name": "Lazy Daisy",
+    "type": "cafe",
+    "edge_id": "-176996126#3",
+    "lat": 34.059985,
+    "lon": -118.446576
+  },
+  {
+    "id": "Meet_Fresh",
+    "original_name": "Meet Fresh",
+    "type": "restaurant",
+    "edge_id": "603531529#0",
+    "lat": 34.0627154,
+    "lon": -118.446288
+  },
+  {
+    "id": "Tacos_1986",
+    "original_name": "Tacos 1986",
+    "type": "restaurant",
+    "edge_id": "-13427908#3",
+    "lat": 34.0606678,
+    "lon": -118.444693
+  },
+  {
+    "id": "Chick_fil_A",
+    "original_name": "Chick-fil-A",
+    "type": "restaurant",
+    "edge_id": "398422367#0",
+    "lat": 34.0635256,
+    "lon": -118.4451155
+  },
+  {
+    "id": "Bruin_Plate",
+    "original_name": "Bruin Plate",
+    "type": "restaurant",
+    "edge_id": "55783710#0",
+    "lat": 34.0717871,
+    "lon": -118.449814
+  },
+  {
+    "id": "Papa_John_s",
+    "original_name": "Papa John's",
+    "type": "restaurant",
+    "edge_id": "-967757567#4",
+    "lat": 34.0568397,
+    "lon": -118.4429448
+  },
+  {
+    "id": "The_Broxton",
+    "original_name": "The Broxton",
+    "type": "restaurant",
+    "edge_id": "957690880#0",
+    "lat": 34.0610885,
+    "lon": -118.4456681
+  },
+  {
+    "id": "Revive_Cafe",
+    "original_name": "Revive Cafe",
+    "type": "cafe",
+    "edge_id": "-13386844#1",
+    "lat": 34.0647074,
+    "lon": -118.4424893
+  },
+  {
+    "id": "Upside_Down",
+    "original_name": "Upside Down",
+    "type": "cafe",
+    "edge_id": "687655956#0",
+    "lat": 34.0635118,
+    "lon": -118.4475263
+  },
+  {
+    "id": "WeRoll_Nori",
+    "original_name": "WeRoll Nori",
+    "type": "restaurant",
+    "edge_id": "687655956#4",
+    "lat": 34.063546,
+    "lon": -118.4457197
+  },
+  {
+    "id": "Trader_Joe_s",
+    "original_name": "Trader Joe's",
+    "type": "restaurant",
+    "edge_id": "-13377861#3",
+    "lat": 34.0621165,
+    "lon": -118.4439469
+  },
+  {
+    "id": "Cafe_Synapse",
+    "original_name": "Cafe Synapse",
+    "type": "cafe",
+    "edge_id": "-229938447",
+    "lat": 34.0671845,
+    "lon": -118.4446638
+  },
+  {
+    "id": "Falafel_Inc_",
+    "original_name": "Falafel Inc.",
+    "type": "restaurant",
+    "edge_id": "13442541#0",
+    "lat": 34.0629588,
+    "lon": -118.4472116
+  },
+  {
+    "id": "Northern_Caf_",
+    "original_name": "Northern Caf\u00e9",
+    "type": "restaurant",
+    "edge_id": "-288116297#7",
+    "lat": 34.0609314,
+    "lon": -118.4468744
+  },
+  {
+    "id": "Corner_Bakery",
+    "original_name": "Corner Bakery",
+    "type": "cafe",
+    "edge_id": "957690880#0",
+    "lat": 34.0621954,
+    "lon": -118.445595
+  },
+  {
+    "id": "Pinches_Tacos",
+    "original_name": "Pinches Tacos",
+    "type": "restaurant",
+    "edge_id": "-13377861#3",
+    "lat": 34.0615811,
+    "lon": -118.4441104
+  },
+  {
+    "id": "Tochal_Market",
+    "original_name": "Tochal Market",
+    "type": "restaurant",
+    "edge_id": "-129553251#2",
+    "lat": 34.0550033,
+    "lon": -118.4412803
+  },
+  {
+    "id": "Rocco_s_Tavern",
+    "original_name": "Rocco's Tavern",
+    "type": "restaurant",
+    "edge_id": "-288116297#7",
+    "lat": 34.0619255,
+    "lon": -118.4476983
+  },
+  {
+    "id": "Bluestone_Lane",
+    "original_name": "Bluestone Lane",
+    "type": "cafe",
+    "edge_id": "610339130#4",
+    "lat": 34.0627171,
+    "lon": -118.444967
+  },
+  {
+    "id": "Dining_Commons",
+    "original_name": "Dining Commons",
+    "type": "restaurant",
+    "edge_id": "-244371957#1",
+    "lat": 34.066064,
+    "lon": -118.446567
+  },
+  {
+    "id": "Tocaya_Organica",
+    "original_name": "Tocaya Organica",
+    "type": "restaurant",
+    "edge_id": "244373201#0",
+    "lat": 34.0595383,
+    "lon": -118.4455872
+  },
+  {
+    "id": "Barney_s_Beanery",
+    "original_name": "Barney's Beanery",
+    "type": "restaurant",
+    "edge_id": "-288116297#7",
+    "lat": 34.0617224,
+    "lon": -118.4466561
+  },
+  {
+    "id": "Prince_of_Venice",
+    "original_name": "Prince of Venice",
+    "type": "restaurant",
+    "edge_id": "763033288#0",
+    "lat": 34.0609153,
+    "lon": -118.445954
+  },
+  {
+    "id": "Covel_Dining_Hall",
+    "original_name": "Covel Dining Hall",
+    "type": "restaurant",
+    "edge_id": "55783710#0",
+    "lat": 34.0729383,
+    "lon": -118.4500968
+  },
+  {
+    "id": "North_Campus_Shop",
+    "original_name": "North Campus Shop",
+    "type": "cafe",
+    "edge_id": "-30724919#4",
+    "lat": 34.0739067,
+    "lon": -118.4437391
+  },
+  {
+    "id": "Lu_Valle_Eateries",
+    "original_name": "Lu Valle Eateries",
+    "type": "cafe",
+    "edge_id": "-1152308347#2",
+    "lat": 34.07356,
+    "lon": -118.4392304
+  },
+  {
+    "id": "Whole_Foods_Market",
+    "original_name": "Whole Foods Market",
+    "type": "restaurant",
+    "edge_id": "-288116297#7",
+    "lat": 34.0612088,
+    "lon": -118.447068
+  },
+  {
+    "id": "De_Neve_Dining_Hall",
+    "original_name": "De Neve Dining Hall",
+    "type": "restaurant",
+    "edge_id": "13398017#0",
+    "lat": 34.0704841,
+    "lon": -118.4502655
+  },
+  {
+    "id": "The_Study_at_Hedrick",
+    "original_name": "The Study at Hedrick",
+    "type": "restaurant",
+    "edge_id": "55783709#0",
+    "lat": 34.0731693,
+    "lon": -118.4523069
+  },
+  {
+    "id": "Rendezvous_Restaurant",
+    "original_name": "Rendezvous Restaurant",
+    "type": "restaurant",
+    "edge_id": "55783709#0",
+    "lat": 34.0725866,
+    "lon": -118.4518668
+  },
+  {
+    "id": "California_Pizza_Kitchen",
+    "original_name": "California Pizza Kitchen",
+    "type": "restaurant",
+    "edge_id": "-603531529#10",
+    "lat": 34.0622772,
+    "lon": -118.447144
+  },
+  {
+    "id": "The_Coffee_Bean___Tea_Leaf",
+    "original_name": "The Coffee Bean & Tea Leaf",
+    "type": "cafe",
+    "edge_id": "197409448#0",
+    "lat": 34.0702344,
+    "lon": -118.4385067
+  },
+  {
+    "id": "Evelyn___Mo_Ostin_Music_Cafe",
+    "original_name": "Evelyn & Mo Ostin Music Cafe",
+    "type": "cafe",
+    "edge_id": "-860279679#3",
+    "lat": 34.0702776,
+    "lon": -118.4405486
+  }
+]

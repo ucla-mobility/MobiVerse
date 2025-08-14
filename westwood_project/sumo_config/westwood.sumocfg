@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <input>
+        <net-file value="../sumo_config/westwood.net.xml"/>
+        <additional-files value="../sumo_config/westwood.landscape.xml,../poi/pois.add.xml"/>
+        <route-files value="../data/westwood.activity.xml"/>
+    </input>
+    <time>
+        <begin value="21000"/>
+        <end value="86400"/>
+        <step-length value="1.0"/>
+    </time>
+    <processing>
+        <time-to-teleport value="-1"/>
+        <device.rerouting.probability value="1"/>
+        <device.rerouting.period value="30"/>
+        <device.rerouting.pre-period value="300"/>
+        <ignore-route-errors value="true"/>
+    </processing>
+    <gui_only>
+        <gui-settings-file value="../sumo_config/gui-settings.xml"/>
+        <start value="true"/>
+        <delay value="50"/>
+    </gui_only>
+</configuration>

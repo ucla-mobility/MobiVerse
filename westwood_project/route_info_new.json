@@ -1,0 +1,5126 @@
+[
+  {
+    "agent_id": "agent_0",
+    "poi_sequence": [
+      {
+        "name": "Slichter Hall",
+        "edge": "-860279679#3",
+        "order": 1,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 26
+      },
+      {
+        "name": "Happy Panda Chinese Hot Pot",
+        "edge": "-288116297#7",
+        "order": 2,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 39
+      },
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 3,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 20
+      }
+    ],
+    "demographics": {
+      "age": 22,
+      "gender": "Non-binary",
+      "student_status": "Not a Student",
+      "income_level": "Medium ($58,000-$153,000/year)",
+      "education_level": "High School",
+      "work_status": "Full-time"
+    }
+  },
+  {
+    "agent_id": "agent_1",
+    "poi_sequence": [
+      {
+        "name": "Ralphs",
+        "edge": "-250080658#4",
+        "order": 1,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 70
+      },
+      {
+        "name": "Ami Sushi",
+        "edge": "-288116297#7",
+        "order": 2,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 81
+      },
+      {
+        "name": "Float Lab Westwood",
+        "edge": "957690880#0",
+        "order": 3,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 32
+      },
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 4,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 36
+      },
+      {
+        "name": "Parking MB/MF",
+        "edge": "971884815",
+        "order": 5,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 41
+      },
+      {
+        "name": "Italian Cultural Institute",
+        "edge": "197409444#4",
+        "order": 6,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 80
+      }
+    ],
+    "demographics": {
+      "age": 30,
+      "gender": "Non-binary",
+      "student_status": "Graduate",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "PhD",
+      "work_status": "Full-time"
+    }
+  },
+  {
+    "agent_id": "agent_2",
+    "poi_sequence": [
+      {
+        "name": "Lucy in the Sky",
+        "edge": "957690880#0",
+        "order": 1,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 88
+      },
+      {
+        "name": "Parking MB/MF",
+        "edge": "971884815",
+        "order": 2,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 49
+      },
+      {
+        "name": "Marines Officer Selection Office",
+        "edge": "957690880#0",
+        "order": 3,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 53
+      },
+      {
+        "name": "Slichter Hall",
+        "edge": "-860279679#3",
+        "order": 4,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 64
+      },
+      {
+        "name": "Young Hall",
+        "edge": "-860279679#3",
+        "order": 5,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 28
+      },
+      {
+        "name": "Parking MB/MF",
+        "edge": "971884815",
+        "order": 6,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 83
+      }
+    ],
+    "demographics": {
+      "age": 25,
+      "gender": "Female",
+      "student_status": "Not a Student",
+      "income_level": "High (Above $153,000/year)",
+      "education_level": "Bachelor",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_3",
+    "poi_sequence": [
+      {
+        "name": "Kazu Nori",
+        "edge": "-176996124#3",
+        "order": 1,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 49
+      },
+      {
+        "name": "Geology",
+        "edge": "-860279679#3",
+        "order": 2,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 81
+      },
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 3,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 48
+      },
+      {
+        "name": "Parking 4",
+        "edge": "",
+        "order": 4,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 56
+      }
+    ],
+    "demographics": {
+      "age": 60,
+      "gender": "Female",
+      "student_status": "Not a Student",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "Master",
+      "work_status": "Part-time"
+    }
+  },
+  {
+    "agent_id": "agent_4",
+    "poi_sequence": [
+      {
+        "name": "Parking MB/MF",
+        "edge": "971884815",
+        "order": 1,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 56
+      },
+      {
+        "name": "Parking 4",
+        "edge": "",
+        "order": 2,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 49
+      },
+      {
+        "name": "Young Hall",
+        "edge": "-860279679#3",
+        "order": 3,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 87
+      },
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 4,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 42
+      },
+      {
+        "name": "Italian Express",
+        "edge": "-825533534#3",
+        "order": 5,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 75
+      },
+      {
+        "name": "Slichter Hall",
+        "edge": "-860279679#3",
+        "order": 6,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 55
+      }
+    ],
+    "demographics": {
+      "age": 51,
+      "gender": "Non-binary",
+      "student_status": "Not a Student",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "PhD",
+      "work_status": "Full-time"
+    }
+  },
+  {
+    "agent_id": "agent_5",
+    "poi_sequence": [
+      {
+        "name": "Parking MB/MF",
+        "edge": "971884815",
+        "order": 1,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 65
+      },
+      {
+        "name": null,
+        "edge": "44651956#0",
+        "order": 2,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 80
+      },
+      {
+        "name": "Parking MB/MF",
+        "edge": "971884815",
+        "order": 3,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 39
+      },
+      {
+        "name": "Son Tr\u00e9 Nails",
+        "edge": "1055030390#0",
+        "order": 4,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 23
+      }
+    ],
+    "demographics": {
+      "age": 33,
+      "gender": "Male",
+      "student_status": "Not a Student",
+      "income_level": "Medium ($58,000-$153,000/year)",
+      "education_level": "High School",
+      "work_status": "Full-time"
+    }
+  },
+  {
+    "agent_id": "agent_6",
+    "poi_sequence": [
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 1,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 55
+      },
+      {
+        "name": "Cafe Synapse",
+        "edge": "-229938447",
+        "order": 2,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 81
+      },
+      {
+        "name": "Parking MB/MF",
+        "edge": "971884815",
+        "order": 3,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 28
+      }
+    ],
+    "demographics": {
+      "age": 31,
+      "gender": "Male",
+      "student_status": "Not a Student",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "Master",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_7",
+    "poi_sequence": [
+      {
+        "name": "Vintage Inspired",
+        "edge": "132495023#3",
+        "order": 1,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 87
+      },
+      {
+        "name": "Revive Cafe",
+        "edge": "-13386844#1",
+        "order": 2,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 20
+      },
+      {
+        "name": "Central Ticket Office",
+        "edge": "495920254#0",
+        "order": 3,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 80
+      },
+      {
+        "name": "Seasnet Cafe",
+        "edge": "",
+        "order": 4,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 73
+      },
+      {
+        "name": "Ralphs",
+        "edge": "-250080658#4",
+        "order": 5,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 59
+      },
+      {
+        "name": null,
+        "edge": "",
+        "order": 6,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 36
+      }
+    ],
+    "demographics": {
+      "age": 35,
+      "gender": "Male",
+      "student_status": "Not a Student",
+      "income_level": "Medium ($58,000-$153,000/year)",
+      "education_level": "High School",
+      "work_status": "Part-time"
+    }
+  },
+  {
+    "agent_id": "agent_8",
+    "poi_sequence": [
+      {
+        "name": "Lollicup",
+        "edge": "",
+        "order": 1,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 38
+      },
+      {
+        "name": "Mr. Rice",
+        "edge": "-603531529#4",
+        "order": 2,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 74
+      },
+      {
+        "name": "Parking 4",
+        "edge": "",
+        "order": 3,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 75
+      }
+    ],
+    "demographics": {
+      "age": 26,
+      "gender": "Female",
+      "student_status": "Graduate",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "Master",
+      "work_status": "Full-time"
+    }
+  },
+  {
+    "agent_id": "agent_9",
+    "poi_sequence": [
+      {
+        "name": "Rebud",
+        "edge": "159608998#0",
+        "order": 1,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 76
+      },
+      {
+        "name": "The Vape Lounge",
+        "edge": "132495023#0",
+        "order": 2,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 82
+      },
+      {
+        "name": "Upside Down",
+        "edge": "687655956#0",
+        "order": 3,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 45
+      }
+    ],
+    "demographics": {
+      "age": 38,
+      "gender": "Female",
+      "student_status": "Not a Student",
+      "income_level": "Medium ($58,000-$153,000/year)",
+      "education_level": "High School",
+      "work_status": "Part-time"
+    }
+  },
+  {
+    "agent_id": "agent_10",
+    "poi_sequence": [
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 1,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 40
+      },
+      {
+        "name": "Print Center",
+        "edge": "603531529#0",
+        "order": 2,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 74
+      },
+      {
+        "name": "Martin Hyman",
+        "edge": "957690880#0",
+        "order": 3,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 42
+      },
+      {
+        "name": "Insomnia Cookies",
+        "edge": "1055030390#0",
+        "order": 4,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 90
+      }
+    ],
+    "demographics": {
+      "age": 58,
+      "gender": "Non-binary",
+      "student_status": "Not a Student",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "Master",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_11",
+    "poi_sequence": [
+      {
+        "name": "Campus Shoe Repair",
+        "edge": "603531529#0",
+        "order": 1,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 33
+      },
+      {
+        "name": "Aahs!",
+        "edge": "603531531#0",
+        "order": 2,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 65
+      },
+      {
+        "name": "California Pizza Kitchen",
+        "edge": "-603531529#10",
+        "order": 3,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 69
+      },
+      {
+        "name": "Parking 4",
+        "edge": "",
+        "order": 4,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 70
+      },
+      {
+        "name": "Westwood Copies",
+        "edge": "288116297#0",
+        "order": 5,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 26
+      }
+    ],
+    "demographics": {
+      "age": 22,
+      "gender": "Male",
+      "student_status": "Undergraduate",
+      "income_level": "Medium ($58,000-$153,000/year)",
+      "education_level": "PhD",
+      "work_status": "Full-time"
+    }
+  },
+  {
+    "agent_id": "agent_12",
+    "poi_sequence": [
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 1,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 31
+      },
+      {
+        "name": "Upside Down",
+        "edge": "687655956#0",
+        "order": 2,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 52
+      },
+      {
+        "name": "Parking MB/MF",
+        "edge": "971884815",
+        "order": 3,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 25
+      },
+      {
+        "name": "Young Hall",
+        "edge": "-860279679#3",
+        "order": 4,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 45
+      }
+    ],
+    "demographics": {
+      "age": 41,
+      "gender": "Female",
+      "student_status": "Not a Student",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "PhD",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_13",
+    "poi_sequence": [
+      {
+        "name": "ScAi Lab",
+        "edge": "",
+        "order": 1,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 41
+      },
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 2,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 66
+      },
+      {
+        "name": "Cafe Synapse",
+        "edge": "-229938447",
+        "order": 3,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 52
+      },
+      {
+        "name": "Target",
+        "edge": "610339130#0",
+        "order": 4,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 20
+      },
+      {
+        "name": "Italian Cultural Institute",
+        "edge": "197409444#4",
+        "order": 5,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 50
+      }
+    ],
+    "demographics": {
+      "age": 67,
+      "gender": "Female",
+      "student_status": "Not a Student",
+      "income_level": "Medium ($58,000-$153,000/year)",
+      "education_level": "PhD",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_14",
+    "poi_sequence": [
+      {
+        "name": "Fama",
+        "edge": "132495023#0",
+        "order": 1,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 74
+      },
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 2,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 22
+      },
+      {
+        "name": "Henri Salon de Beaut\u00e9",
+        "edge": "-13377861#3",
+        "order": 3,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 68
+      },
+      {
+        "name": "ScAi Lab",
+        "edge": "",
+        "order": 4,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 71
+      },
+      {
+        "name": "Geology",
+        "edge": "-860279679#3",
+        "order": 5,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 57
+      },
+      {
+        "name": "Parking 4",
+        "edge": "",
+        "order": 6,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 54
+      }
+    ],
+    "demographics": {
+      "age": 55,
+      "gender": "Non-binary",
+      "student_status": "Not a Student",
+      "income_level": "Medium ($58,000-$153,000/year)",
+      "education_level": "High School",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_15",
+    "poi_sequence": [
+      {
+        "name": "UCLA Transportation",
+        "edge": "1014343601#0",
+        "order": 1,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 53
+      },
+      {
+        "name": "Parking 4",
+        "edge": "",
+        "order": 2,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 48
+      },
+      {
+        "name": "Lu Valle Eateries",
+        "edge": "-1152308347#2",
+        "order": 3,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 41
+      }
+    ],
+    "demographics": {
+      "age": 44,
+      "gender": "Non-binary",
+      "student_status": "Not a Student",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "Master",
+      "work_status": "Part-time"
+    }
+  },
+  {
+    "agent_id": "agent_16",
+    "poi_sequence": [
+      {
+        "name": "Italian Cultural Institute",
+        "edge": "197409444#4",
+        "order": 1,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 52
+      },
+      {
+        "name": "Phenix",
+        "edge": "13377861#0",
+        "order": 2,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 36
+      },
+      {
+        "name": "ScAi Lab",
+        "edge": "",
+        "order": 3,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 61
+      }
+    ],
+    "demographics": {
+      "age": 43,
+      "gender": "Non-binary",
+      "student_status": "Not a Student",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "Bachelor",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_17",
+    "poi_sequence": [
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 1,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 82
+      },
+      {
+        "name": "U See LA",
+        "edge": "",
+        "order": 2,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 86
+      },
+      {
+        "name": "Slichter Hall",
+        "edge": "-860279679#3",
+        "order": 3,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 34
+      },
+      {
+        "name": "Italian Cultural Institute",
+        "edge": "197409444#4",
+        "order": 4,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 80
+      },
+      {
+        "name": "Cafe Med",
+        "edge": "",
+        "order": 5,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 42
+      },
+      {
+        "name": "Print Center",
+        "edge": "603531529#0",
+        "order": 6,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 90
+      }
+    ],
+    "demographics": {
+      "age": 23,
+      "gender": "Non-binary",
+      "student_status": "Not a Student",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "High School",
+      "work_status": "Part-time"
+    }
+  },
+  {
+    "agent_id": "agent_18",
+    "poi_sequence": [
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 1,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 79
+      },
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 2,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 42
+      },
+      {
+        "name": "Son Tr\u00e9 Nails",
+        "edge": "1055030390#0",
+        "order": 3,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 82
+      },
+      {
+        "name": "Parking MB/MF",
+        "edge": "971884815",
+        "order": 4,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 81
+      },
+      {
+        "name": "Italian Cultural Institute",
+        "edge": "197409444#4",
+        "order": 5,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 61
+      },
+      {
+        "name": "Lazy Daisy",
+        "edge": "-176996126#3",
+        "order": 6,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 73
+      },
+      {
+        "name": "Cafe 1919",
+        "edge": "",
+        "order": 7,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 85
+      }
+    ],
+    "demographics": {
+      "age": 21,
+      "gender": "Male",
+      "student_status": "Undergraduate",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "Bachelor",
+      "work_status": "Full-time"
+    }
+  },
+  {
+    "agent_id": "agent_19",
+    "poi_sequence": [
+      {
+        "name": "Geology",
+        "edge": "-860279679#3",
+        "order": 1,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 33
+      },
+      {
+        "name": "Lollicup",
+        "edge": "",
+        "order": 2,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 75
+      },
+      {
+        "name": "Marines Officer Selection Office",
+        "edge": "957690880#0",
+        "order": 3,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 38
+      },
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 4,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 61
+      }
+    ],
+    "demographics": {
+      "age": 68,
+      "gender": "Non-binary",
+      "student_status": "Not a Student",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "High School",
+      "work_status": "Full-time"
+    }
+  },
+  {
+    "agent_id": "agent_20",
+    "poi_sequence": [
+      {
+        "name": "Marines Officer Selection Office",
+        "edge": "957690880#0",
+        "order": 1,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 88
+      },
+      {
+        "name": "Italian Cultural Institute",
+        "edge": "197409444#4",
+        "order": 2,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 71
+      },
+      {
+        "name": "Southern Lights",
+        "edge": "",
+        "order": 3,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 59
+      },
+      {
+        "name": "Violet Bistro",
+        "edge": "159608998#0",
+        "order": 4,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 55
+      },
+      {
+        "name": "Marines Officer Selection Office",
+        "edge": "957690880#0",
+        "order": 5,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 55
+      }
+    ],
+    "demographics": {
+      "age": 27,
+      "gender": "Female",
+      "student_status": "Graduate",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "PhD",
+      "work_status": "Full-time"
+    }
+  },
+  {
+    "agent_id": "agent_21",
+    "poi_sequence": [
+      {
+        "name": "ExtraMile",
+        "edge": "-129555455#2",
+        "order": 1,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 20
+      },
+      {
+        "name": "Fellow",
+        "edge": "13377861#0",
+        "order": 2,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 40
+      },
+      {
+        "name": "California Pizza Kitchen",
+        "edge": "-603531529#10",
+        "order": 3,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 90
+      },
+      {
+        "name": "Phenix",
+        "edge": "13377861#0",
+        "order": 4,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 88
+      },
+      {
+        "name": null,
+        "edge": "44651956#0",
+        "order": 5,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 57
+      },
+      {
+        "name": "Hibachi Papi",
+        "edge": "-13442541#3",
+        "order": 6,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 36
+      }
+    ],
+    "demographics": {
+      "age": 64,
+      "gender": "Female",
+      "student_status": "Not a Student",
+      "income_level": "High (Above $153,000/year)",
+      "education_level": "Bachelor",
+      "work_status": "Full-time"
+    }
+  },
+  {
+    "agent_id": "agent_22",
+    "poi_sequence": [
+      {
+        "name": "The Farmacy",
+        "edge": "288116297#0",
+        "order": 1,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 34
+      },
+      {
+        "name": "Marines Officer Selection Office",
+        "edge": "957690880#0",
+        "order": 2,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 84
+      },
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 3,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 29
+      },
+      {
+        "name": "Sunryde",
+        "edge": "132495023#0",
+        "order": 4,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 80
+      },
+      {
+        "name": "Northern Caf\u00e9",
+        "edge": "-288116297#7",
+        "order": 5,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 79
+      },
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 6,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 87
+      }
+    ],
+    "demographics": {
+      "age": 45,
+      "gender": "Female",
+      "student_status": "Not a Student",
+      "income_level": "Medium ($58,000-$153,000/year)",
+      "education_level": "Master",
+      "work_status": "Full-time"
+    }
+  },
+  {
+    "agent_id": "agent_23",
+    "poi_sequence": [
+      {
+        "name": "Float Lab Westwood",
+        "edge": "957690880#0",
+        "order": 1,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 25
+      },
+      {
+        "name": null,
+        "edge": "44651956#0",
+        "order": 2,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 81
+      },
+      {
+        "name": "Michael K. Jewelers",
+        "edge": "763033288#0",
+        "order": 3,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 64
+      },
+      {
+        "name": "Slichter Hall",
+        "edge": "-860279679#3",
+        "order": 4,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 76
+      },
+      {
+        "name": "UCLA Transportation",
+        "edge": "1014343601#0",
+        "order": 5,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 51
+      },
+      {
+        "name": "The Coffee Bean & Tea Leaf",
+        "edge": "197409448#0",
+        "order": 6,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 63
+      },
+      {
+        "name": "Target",
+        "edge": "610339130#0",
+        "order": 7,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 81
+      }
+    ],
+    "demographics": {
+      "age": 34,
+      "gender": "Female",
+      "student_status": "Graduate",
+      "income_level": "High (Above $153,000/year)",
+      "education_level": "High School",
+      "work_status": "Part-time"
+    }
+  },
+  {
+    "agent_id": "agent_24",
+    "poi_sequence": [
+      {
+        "name": "Geology",
+        "edge": "-860279679#3",
+        "order": 1,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 61
+      },
+      {
+        "name": "Cafe 451",
+        "edge": "",
+        "order": 2,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 86
+      },
+      {
+        "name": "Cafe Synapse",
+        "edge": "-229938447",
+        "order": 3,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 55
+      }
+    ],
+    "demographics": {
+      "age": 37,
+      "gender": "Non-binary",
+      "student_status": "Not a Student",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "Bachelor",
+      "work_status": "Part-time"
+    }
+  },
+  {
+    "agent_id": "agent_25",
+    "poi_sequence": [
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 1,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 70
+      },
+      {
+        "name": "Salon Ash",
+        "edge": "763033288#0",
+        "order": 2,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 73
+      },
+      {
+        "name": "Slichter Hall",
+        "edge": "-860279679#3",
+        "order": 3,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 81
+      }
+    ],
+    "demographics": {
+      "age": 46,
+      "gender": "Female",
+      "student_status": "Not a Student",
+      "income_level": "Medium ($58,000-$153,000/year)",
+      "education_level": "PhD",
+      "work_status": "Part-time"
+    }
+  },
+  {
+    "agent_id": "agent_26",
+    "poi_sequence": [
+      {
+        "name": "UCLA Store BookZone",
+        "edge": "",
+        "order": 1,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 57
+      },
+      {
+        "name": "Denny's",
+        "edge": "-825533534#3",
+        "order": 2,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 24
+      },
+      {
+        "name": "California Pizza Kitchen",
+        "edge": "-603531529#10",
+        "order": 3,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 20
+      },
+      {
+        "name": "Slichter Hall",
+        "edge": "-860279679#3",
+        "order": 4,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 89
+      },
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 5,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 26
+      }
+    ],
+    "demographics": {
+      "age": 33,
+      "gender": "Female",
+      "student_status": "Graduate",
+      "income_level": "Medium ($58,000-$153,000/year)",
+      "education_level": "High School",
+      "work_status": "Part-time"
+    }
+  },
+  {
+    "agent_id": "agent_27",
+    "poi_sequence": [
+      {
+        "name": "Evelyn & Mo Ostin Music Cafe",
+        "edge": "-860279679#3",
+        "order": 1,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 44
+      },
+      {
+        "name": "Young Hall",
+        "edge": "-860279679#3",
+        "order": 2,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 56
+      },
+      {
+        "name": "Court of Sciences Store",
+        "edge": "",
+        "order": 3,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 87
+      },
+      {
+        "name": "Westwood Flower Garden",
+        "edge": "288116297#0",
+        "order": 4,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 50
+      },
+      {
+        "name": "Pokitomik",
+        "edge": "763033285#0",
+        "order": 5,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 75
+      },
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 6,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 40
+      },
+      {
+        "name": "Float Lab Westwood",
+        "edge": "957690880#0",
+        "order": 7,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 81
+      }
+    ],
+    "demographics": {
+      "age": 30,
+      "gender": "Non-binary",
+      "student_status": "Graduate",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "PhD",
+      "work_status": "Part-time"
+    }
+  },
+  {
+    "agent_id": "agent_28",
+    "poi_sequence": [
+      {
+        "name": "Michael K. Jewelers",
+        "edge": "763033288#0",
+        "order": 1,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 43
+      },
+      {
+        "name": "Cafe 1919",
+        "edge": "",
+        "order": 2,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 39
+      },
+      {
+        "name": "Christian Science Reading Room",
+        "edge": "159608998#0",
+        "order": 3,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 31
+      },
+      {
+        "name": "Covel Dining Hall",
+        "edge": "55783710#0",
+        "order": 4,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 87
+      },
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 5,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 73
+      },
+      {
+        "name": "Toranj",
+        "edge": "-825533534#3",
+        "order": 6,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 85
+      }
+    ],
+    "demographics": {
+      "age": 28,
+      "gender": "Male",
+      "student_status": "Not a Student",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "Master",
+      "work_status": "Part-time"
+    }
+  },
+  {
+    "agent_id": "agent_29",
+    "poi_sequence": [
+      {
+        "name": "Fama",
+        "edge": "132495023#0",
+        "order": 1,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 81
+      },
+      {
+        "name": "Corner Bakery",
+        "edge": "957690880#0",
+        "order": 2,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 34
+      },
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 3,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 63
+      },
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 4,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 25
+      },
+      {
+        "name": "Young Hall",
+        "edge": "-860279679#3",
+        "order": 5,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 53
+      }
+    ],
+    "demographics": {
+      "age": 21,
+      "gender": "Female",
+      "student_status": "Undergraduate",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "Bachelor",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_30",
+    "poi_sequence": [
+      {
+        "name": "Gary's Custom Tailor",
+        "edge": "-13377861#3",
+        "order": 1,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 87
+      },
+      {
+        "name": "Son Tr\u00e9 Nails",
+        "edge": "1055030390#0",
+        "order": 2,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 54
+      },
+      {
+        "name": "Slichter Hall",
+        "edge": "-860279679#3",
+        "order": 3,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 69
+      },
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 4,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 22
+      },
+      {
+        "name": "Fellow",
+        "edge": "13377861#0",
+        "order": 5,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 51
+      },
+      {
+        "name": "Brandy Melville",
+        "edge": "-603531529#10",
+        "order": 6,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 34
+      }
+    ],
+    "demographics": {
+      "age": 53,
+      "gender": "Female",
+      "student_status": "Not a Student",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "Master",
+      "work_status": "Full-time"
+    }
+  },
+  {
+    "agent_id": "agent_31",
+    "poi_sequence": [
+      {
+        "name": "Young Hall",
+        "edge": "-860279679#3",
+        "order": 1,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 50
+      },
+      {
+        "name": "Geology",
+        "edge": "-860279679#3",
+        "order": 2,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 38
+      },
+      {
+        "name": "Parking 4",
+        "edge": "",
+        "order": 3,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 60
+      },
+      {
+        "name": "The Study at Hedrick",
+        "edge": "55783709#0",
+        "order": 4,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 87
+      },
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 5,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 82
+      }
+    ],
+    "demographics": {
+      "age": 34,
+      "gender": "Non-binary",
+      "student_status": "Not a Student",
+      "income_level": "Medium ($58,000-$153,000/year)",
+      "education_level": "PhD",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_32",
+    "poi_sequence": [
+      {
+        "name": "Parking 4",
+        "edge": "",
+        "order": 1,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 86
+      },
+      {
+        "name": "The Study at Hedrick",
+        "edge": "55783709#0",
+        "order": 2,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 23
+      },
+      {
+        "name": "Covel Dining Hall",
+        "edge": "55783710#0",
+        "order": 3,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 53
+      },
+      {
+        "name": "Muriel Chastanet Fine Jewelry",
+        "edge": "159608998#0",
+        "order": 4,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 66
+      },
+      {
+        "name": "Parking 4",
+        "edge": "",
+        "order": 5,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 21
+      },
+      {
+        "name": "Enzo's Pizzeria",
+        "edge": "-603531529#4",
+        "order": 6,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 70
+      }
+    ],
+    "demographics": {
+      "age": 31,
+      "gender": "Male",
+      "student_status": "Graduate",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "PhD",
+      "work_status": "Full-time"
+    }
+  },
+  {
+    "agent_id": "agent_33",
+    "poi_sequence": [
+      {
+        "name": "Lazy Daisy",
+        "edge": "-176996126#3",
+        "order": 1,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 74
+      },
+      {
+        "name": "Parking MB/MF",
+        "edge": "971884815",
+        "order": 2,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 44
+      },
+      {
+        "name": "Parking 4",
+        "edge": "",
+        "order": 3,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 76
+      },
+      {
+        "name": "De Neve Dining Hall",
+        "edge": "13398017#0",
+        "order": 4,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 27
+      }
+    ],
+    "demographics": {
+      "age": 37,
+      "gender": "Male",
+      "student_status": "Not a Student",
+      "income_level": "High (Above $153,000/year)",
+      "education_level": "High School",
+      "work_status": "Full-time"
+    }
+  },
+  {
+    "agent_id": "agent_34",
+    "poi_sequence": [
+      {
+        "name": "Parking MB/MF",
+        "edge": "971884815",
+        "order": 1,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 70
+      },
+      {
+        "name": "Young Hall",
+        "edge": "-860279679#3",
+        "order": 2,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 43
+      },
+      {
+        "name": "Young Hall",
+        "edge": "-860279679#3",
+        "order": 3,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 27
+      },
+      {
+        "name": "Parking 4",
+        "edge": "",
+        "order": 4,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 36
+      },
+      {
+        "name": "Rendezvous Restaurant",
+        "edge": "55783709#0",
+        "order": 5,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 72
+      },
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 6,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 22
+      },
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 7,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 76
+      }
+    ],
+    "demographics": {
+      "age": 27,
+      "gender": "Male",
+      "student_status": "Graduate",
+      "income_level": "High (Above $153,000/year)",
+      "education_level": "PhD",
+      "work_status": "Part-time"
+    }
+  },
+  {
+    "agent_id": "agent_35",
+    "poi_sequence": [
+      {
+        "name": "UCLA Transportation",
+        "edge": "1014343601#0",
+        "order": 1,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 79
+      },
+      {
+        "name": "First Szechuan Wok",
+        "edge": "-825533534#3",
+        "order": 2,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 70
+      },
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 3,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 34
+      },
+      {
+        "name": "Profeta",
+        "edge": "159608998#0",
+        "order": 4,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 74
+      },
+      {
+        "name": "Kazu Nori",
+        "edge": "-176996124#3",
+        "order": 5,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 49
+      },
+      {
+        "name": "Parking MB/MF",
+        "edge": "971884815",
+        "order": 6,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 31
+      }
+    ],
+    "demographics": {
+      "age": 45,
+      "gender": "Male",
+      "student_status": "Not a Student",
+      "income_level": "Medium ($58,000-$153,000/year)",
+      "education_level": "Bachelor",
+      "work_status": "Part-time"
+    }
+  },
+  {
+    "agent_id": "agent_36",
+    "poi_sequence": [
+      {
+        "name": "Sweetfin",
+        "edge": "44651956#0",
+        "order": 1,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 31
+      },
+      {
+        "name": "Ami Sushi",
+        "edge": "-288116297#7",
+        "order": 2,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 71
+      },
+      {
+        "name": "Martin Hyman",
+        "edge": "957690880#0",
+        "order": 3,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 49
+      }
+    ],
+    "demographics": {
+      "age": 22,
+      "gender": "Non-binary",
+      "student_status": "Undergraduate",
+      "income_level": "High (Above $153,000/year)",
+      "education_level": "Bachelor",
+      "work_status": "Part-time"
+    }
+  },
+  {
+    "agent_id": "agent_37",
+    "poi_sequence": [
+      {
+        "name": "Henri Salon de Beaut\u00e9",
+        "edge": "-13377861#3",
+        "order": 1,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 71
+      },
+      {
+        "name": "Italian Cultural Institute",
+        "edge": "197409444#4",
+        "order": 2,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 25
+      },
+      {
+        "name": "Campus Shoe Repair",
+        "edge": "603531529#0",
+        "order": 3,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 58
+      },
+      {
+        "name": "Alfred",
+        "edge": "44651956#0",
+        "order": 4,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 25
+      },
+      {
+        "name": "Molecular Sciences",
+        "edge": "-860279679#3",
+        "order": 5,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 79
+      },
+      {
+        "name": "Parking 4",
+        "edge": "",
+        "order": 6,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 78
+      }
+    ],
+    "demographics": {
+      "age": 56,
+      "gender": "Non-binary",
+      "student_status": "Not a Student",
+      "income_level": "Medium ($58,000-$153,000/year)",
+      "education_level": "Bachelor",
+      "work_status": "Part-time"
+    }
+  },
+  {
+    "agent_id": "agent_38",
+    "poi_sequence": [
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 1,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 58
+      },
+      {
+        "name": "Young Hall",
+        "edge": "-860279679#3",
+        "order": 2,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 52
+      },
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 3,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 38
+      },
+      {
+        "name": "Parking 4",
+        "edge": "",
+        "order": 4,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 29
+      },
+      {
+        "name": "Sweetspot",
+        "edge": "",
+        "order": 5,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 78
+      }
+    ],
+    "demographics": {
+      "age": 30,
+      "gender": "Non-binary",
+      "student_status": "Graduate",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "High School",
+      "work_status": "Full-time"
+    }
+  },
+  {
+    "agent_id": "agent_39",
+    "poi_sequence": [
+      {
+        "name": "Elysee",
+        "edge": "288116297#0",
+        "order": 1,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 64
+      },
+      {
+        "name": "Parking MB/MF",
+        "edge": "971884815",
+        "order": 2,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 39
+      },
+      {
+        "name": "The Coffee Bean & Tea Leaf",
+        "edge": "197409448#0",
+        "order": 3,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 27
+      },
+      {
+        "name": "Denny's",
+        "edge": "-825533534#3",
+        "order": 4,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 64
+      },
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 5,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 27
+      }
+    ],
+    "demographics": {
+      "age": 18,
+      "gender": "Non-binary",
+      "student_status": "Undergraduate",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "Bachelor",
+      "work_status": "Full-time"
+    }
+  },
+  {
+    "agent_id": "agent_40",
+    "poi_sequence": [
+      {
+        "name": "Plateia",
+        "edge": "495920254#0",
+        "order": 1,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 35
+      },
+      {
+        "name": "Elysee",
+        "edge": "288116297#0",
+        "order": 2,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 90
+      },
+      {
+        "name": "Slichter Hall",
+        "edge": "-860279679#3",
+        "order": 3,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 62
+      },
+      {
+        "name": "Sharetea",
+        "edge": "-288116297#7",
+        "order": 4,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 80
+      },
+      {
+        "name": "Cafe Synapse",
+        "edge": "-229938447",
+        "order": 5,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 81
+      },
+      {
+        "name": "Flax Pen to Paper",
+        "edge": "-288116297#7",
+        "order": 6,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 25
+      },
+      {
+        "name": "ScAi Lab",
+        "edge": "",
+        "order": 7,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 36
+      }
+    ],
+    "demographics": {
+      "age": 25,
+      "gender": "Non-binary",
+      "student_status": "Graduate",
+      "income_level": "High (Above $153,000/year)",
+      "education_level": "Bachelor",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_41",
+    "poi_sequence": [
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 1,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 54
+      },
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 2,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 69
+      },
+      {
+        "name": "Lu Valle Eateries",
+        "edge": "-1152308347#2",
+        "order": 3,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 40
+      },
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 4,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 37
+      },
+      {
+        "name": "Parking 4",
+        "edge": "",
+        "order": 5,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 49
+      },
+      {
+        "name": "Parking 4",
+        "edge": "",
+        "order": 6,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 49
+      },
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 7,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 34
+      }
+    ],
+    "demographics": {
+      "age": 27,
+      "gender": "Female",
+      "student_status": "Graduate",
+      "income_level": "Medium ($58,000-$153,000/year)",
+      "education_level": "Master",
+      "work_status": "Part-time"
+    }
+  },
+  {
+    "agent_id": "agent_42",
+    "poi_sequence": [
+      {
+        "name": "Marines Officer Selection Office",
+        "edge": "957690880#0",
+        "order": 1,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 63
+      },
+      {
+        "name": "Sharetea",
+        "edge": "-288116297#7",
+        "order": 2,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 37
+      },
+      {
+        "name": "Parking MB/MF",
+        "edge": "971884815",
+        "order": 3,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 60
+      },
+      {
+        "name": "Cafe Synapse",
+        "edge": "-229938447",
+        "order": 4,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 38
+      },
+      {
+        "name": "Westwood Sporting Goods",
+        "edge": "288116297#0",
+        "order": 5,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 51
+      }
+    ],
+    "demographics": {
+      "age": 62,
+      "gender": "Female",
+      "student_status": "Not a Student",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "High School",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_43",
+    "poi_sequence": [
+      {
+        "name": "UCLA Game Lab",
+        "edge": "",
+        "order": 1,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 22
+      },
+      {
+        "name": "Parking 4",
+        "edge": "",
+        "order": 2,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 79
+      },
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 3,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 86
+      },
+      {
+        "name": "Falafel Inc.",
+        "edge": "13442541#0",
+        "order": 4,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 77
+      }
+    ],
+    "demographics": {
+      "age": 18,
+      "gender": "Male",
+      "student_status": "Undergraduate",
+      "income_level": "High (Above $153,000/year)",
+      "education_level": "High School",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_44",
+    "poi_sequence": [
+      {
+        "name": "Bruin Plate",
+        "edge": "55783710#0",
+        "order": 1,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 68
+      },
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 2,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 20
+      },
+      {
+        "name": "Parking MB/MF",
+        "edge": "971884815",
+        "order": 3,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 46
+      },
+      {
+        "name": "Hibachi Papi",
+        "edge": "-13442541#3",
+        "order": 4,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 25
+      }
+    ],
+    "demographics": {
+      "age": 47,
+      "gender": "Male",
+      "student_status": "Not a Student",
+      "income_level": "High (Above $153,000/year)",
+      "education_level": "Bachelor",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_45",
+    "poi_sequence": [
+      {
+        "name": "Parking 4",
+        "edge": "",
+        "order": 1,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 64
+      },
+      {
+        "name": "Parking MB/MF",
+        "edge": "971884815",
+        "order": 2,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 26
+      },
+      {
+        "name": "Parking MB/MF",
+        "edge": "971884815",
+        "order": 3,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 62
+      },
+      {
+        "name": "Parking 4",
+        "edge": "",
+        "order": 4,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 89
+      }
+    ],
+    "demographics": {
+      "age": 29,
+      "gender": "Non-binary",
+      "student_status": "Graduate",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "High School",
+      "work_status": "Full-time"
+    }
+  },
+  {
+    "agent_id": "agent_46",
+    "poi_sequence": [
+      {
+        "name": "Bruin Plate",
+        "edge": "55783710#0",
+        "order": 1,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 75
+      },
+      {
+        "name": "ScAi Lab",
+        "edge": "",
+        "order": 2,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 79
+      },
+      {
+        "name": "Parking 4",
+        "edge": "",
+        "order": 3,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 64
+      }
+    ],
+    "demographics": {
+      "age": 18,
+      "gender": "Male",
+      "student_status": "Undergraduate",
+      "income_level": "Medium ($58,000-$153,000/year)",
+      "education_level": "High School",
+      "work_status": "Full-time"
+    }
+  },
+  {
+    "agent_id": "agent_47",
+    "poi_sequence": [
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 1,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 73
+      },
+      {
+        "name": "Southern Lights",
+        "edge": "",
+        "order": 2,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 52
+      },
+      {
+        "name": "Marines Officer Selection Office",
+        "edge": "957690880#0",
+        "order": 3,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 46
+      },
+      {
+        "name": "Starbucks",
+        "edge": "",
+        "order": 4,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 70
+      },
+      {
+        "name": "Young Hall",
+        "edge": "-860279679#3",
+        "order": 5,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 45
+      }
+    ],
+    "demographics": {
+      "age": 21,
+      "gender": "Male",
+      "student_status": "Undergraduate",
+      "income_level": "Medium ($58,000-$153,000/year)",
+      "education_level": "High School",
+      "work_status": "Full-time"
+    }
+  },
+  {
+    "agent_id": "agent_48",
+    "poi_sequence": [
+      {
+        "name": "Violet Bistro",
+        "edge": "159608998#0",
+        "order": 1,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 44
+      },
+      {
+        "name": "Course Reader Materials",
+        "edge": "957690880#0",
+        "order": 2,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 76
+      },
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 3,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 76
+      },
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 4,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 66
+      },
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 5,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 85
+      }
+    ],
+    "demographics": {
+      "age": 22,
+      "gender": "Non-binary",
+      "student_status": "Undergraduate",
+      "income_level": "Medium ($58,000-$153,000/year)",
+      "education_level": "High School",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_49",
+    "poi_sequence": [
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 1,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 86
+      },
+      {
+        "name": "Starbucks",
+        "edge": "610339130#0",
+        "order": 2,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 44
+      },
+      {
+        "name": "The Coffee Bean & Tea Leaf",
+        "edge": "197409448#0",
+        "order": 3,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 33
+      },
+      {
+        "name": "Molecular Sciences",
+        "edge": "-860279679#3",
+        "order": 4,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 84
+      },
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 5,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 78
+      },
+      {
+        "name": "Marines Officer Selection Office",
+        "edge": "957690880#0",
+        "order": 6,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 73
+      }
+    ],
+    "demographics": {
+      "age": 18,
+      "gender": "Female",
+      "student_status": "Undergraduate",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "High School",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_50",
+    "poi_sequence": [
+      {
+        "name": "UCLA Bike Shop",
+        "edge": "",
+        "order": 1,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 33
+      },
+      {
+        "name": "Young Hall",
+        "edge": "-860279679#3",
+        "order": 2,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 49
+      },
+      {
+        "name": "Starbucks",
+        "edge": "-250080658#4",
+        "order": 3,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 54
+      },
+      {
+        "name": "Brandy Melville",
+        "edge": "-603531529#10",
+        "order": 4,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 52
+      },
+      {
+        "name": "Marines Officer Selection Office",
+        "edge": "957690880#0",
+        "order": 5,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 82
+      },
+      {
+        "name": "Slichter Hall",
+        "edge": "-860279679#3",
+        "order": 6,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 20
+      },
+      {
+        "name": "Gushi",
+        "edge": "132495023#0",
+        "order": 7,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 53
+      }
+    ],
+    "demographics": {
+      "age": 26,
+      "gender": "Female",
+      "student_status": "Not a Student",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "Bachelor",
+      "work_status": "Part-time"
+    }
+  },
+  {
+    "agent_id": "agent_51",
+    "poi_sequence": [
+      {
+        "name": "ScAi Lab",
+        "edge": "",
+        "order": 1,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 62
+      },
+      {
+        "name": "Marines Officer Selection Office",
+        "edge": "957690880#0",
+        "order": 2,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 73
+      },
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 3,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 29
+      },
+      {
+        "name": "Northern Caf\u00e9",
+        "edge": "-288116297#7",
+        "order": 4,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 23
+      },
+      {
+        "name": "Lollicup",
+        "edge": "",
+        "order": 5,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 29
+      }
+    ],
+    "demographics": {
+      "age": 56,
+      "gender": "Non-binary",
+      "student_status": "Not a Student",
+      "income_level": "High (Above $153,000/year)",
+      "education_level": "Master",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_52",
+    "poi_sequence": [
+      {
+        "name": "Untitled Caf\u00e9",
+        "edge": "",
+        "order": 1,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 57
+      },
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 2,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 58
+      },
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 3,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 46
+      },
+      {
+        "name": "Sharetea",
+        "edge": "-288116297#7",
+        "order": 4,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 49
+      }
+    ],
+    "demographics": {
+      "age": 31,
+      "gender": "Female",
+      "student_status": "Graduate",
+      "income_level": "High (Above $153,000/year)",
+      "education_level": "Master",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_53",
+    "poi_sequence": [
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 1,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 57
+      },
+      {
+        "name": "Slichter Hall",
+        "edge": "-860279679#3",
+        "order": 2,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 51
+      },
+      {
+        "name": "Cafe 451",
+        "edge": "",
+        "order": 3,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 90
+      },
+      {
+        "name": "Young Hall",
+        "edge": "-860279679#3",
+        "order": 4,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 87
+      },
+      {
+        "name": "Italian Cultural Institute",
+        "edge": "197409444#4",
+        "order": 5,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 36
+      }
+    ],
+    "demographics": {
+      "age": 21,
+      "gender": "Female",
+      "student_status": "Undergraduate",
+      "income_level": "High (Above $153,000/year)",
+      "education_level": "Master",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_54",
+    "poi_sequence": [
+      {
+        "name": "UCLA Bike Shop",
+        "edge": "",
+        "order": 1,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 43
+      },
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 2,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 34
+      },
+      {
+        "name": "Southern Lights",
+        "edge": "",
+        "order": 3,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 74
+      },
+      {
+        "name": "UCLA Transportation",
+        "edge": "1014343601#0",
+        "order": 4,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 36
+      }
+    ],
+    "demographics": {
+      "age": 27,
+      "gender": "Non-binary",
+      "student_status": "Not a Student",
+      "income_level": "High (Above $153,000/year)",
+      "education_level": "Master",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_55",
+    "poi_sequence": [
+      {
+        "name": "Parking MB/MF",
+        "edge": "971884815",
+        "order": 1,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 62
+      },
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 2,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 69
+      },
+      {
+        "name": "The Vape Lounge",
+        "edge": "132495023#0",
+        "order": 3,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 55
+      },
+      {
+        "name": "Molecular Sciences",
+        "edge": "-860279679#3",
+        "order": 4,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 69
+      },
+      {
+        "name": "ScAi Lab",
+        "edge": "",
+        "order": 5,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 71
+      },
+      {
+        "name": "Campus Shoe Repair",
+        "edge": "603531529#0",
+        "order": 6,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 39
+      },
+      {
+        "name": "Parking 4",
+        "edge": "",
+        "order": 7,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 48
+      }
+    ],
+    "demographics": {
+      "age": 33,
+      "gender": "Non-binary",
+      "student_status": "Not a Student",
+      "income_level": "Medium ($58,000-$153,000/year)",
+      "education_level": "Master",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_56",
+    "poi_sequence": [
+      {
+        "name": "T-Mobile",
+        "edge": "44651956#0",
+        "order": 1,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 27
+      },
+      {
+        "name": "Alfred",
+        "edge": "44651956#0",
+        "order": 2,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 65
+      },
+      {
+        "name": null,
+        "edge": "44651956#0",
+        "order": 3,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 64
+      },
+      {
+        "name": "ScAi Lab",
+        "edge": "",
+        "order": 4,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 23
+      },
+      {
+        "name": "T-Mobile",
+        "edge": "44651956#0",
+        "order": 5,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 65
+      },
+      {
+        "name": "The Study at Hedrick",
+        "edge": "55783709#0",
+        "order": 6,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 53
+      },
+      {
+        "name": "Tocaya Organica",
+        "edge": "244373201#0",
+        "order": 7,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 34
+      }
+    ],
+    "demographics": {
+      "age": 35,
+      "gender": "Male",
+      "student_status": "Graduate",
+      "income_level": "High (Above $153,000/year)",
+      "education_level": "PhD",
+      "work_status": "Part-time"
+    }
+  },
+  {
+    "agent_id": "agent_57",
+    "poi_sequence": [
+      {
+        "name": "GSBC",
+        "edge": "610339130#4",
+        "order": 1,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 52
+      },
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 2,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 36
+      },
+      {
+        "name": "Just Boba Tea House",
+        "edge": "132495023#0",
+        "order": 3,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 83
+      }
+    ],
+    "demographics": {
+      "age": 29,
+      "gender": "Female",
+      "student_status": "Not a Student",
+      "income_level": "High (Above $153,000/year)",
+      "education_level": "Bachelor",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_58",
+    "poi_sequence": [
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 1,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 47
+      },
+      {
+        "name": "Mr. Rice",
+        "edge": "-603531529#4",
+        "order": 2,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 57
+      },
+      {
+        "name": "Geology",
+        "edge": "-860279679#3",
+        "order": 3,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 65
+      },
+      {
+        "name": "Ralphs",
+        "edge": "-250080658#4",
+        "order": 4,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 24
+      },
+      {
+        "name": "Parking 4",
+        "edge": "",
+        "order": 5,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 20
+      },
+      {
+        "name": "Sunryde",
+        "edge": "132495023#0",
+        "order": 6,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 81
+      }
+    ],
+    "demographics": {
+      "age": 52,
+      "gender": "Male",
+      "student_status": "Not a Student",
+      "income_level": "Medium ($58,000-$153,000/year)",
+      "education_level": "PhD",
+      "work_status": "Part-time"
+    }
+  },
+  {
+    "agent_id": "agent_59",
+    "poi_sequence": [
+      {
+        "name": "Mr. Noodle",
+        "edge": "-13442541#3",
+        "order": 1,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 73
+      },
+      {
+        "name": "The Study at Hedrick",
+        "edge": "55783709#0",
+        "order": 2,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 73
+      },
+      {
+        "name": "UCLA Game Lab",
+        "edge": "",
+        "order": 3,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 89
+      },
+      {
+        "name": "UCLA Bike Shop",
+        "edge": "",
+        "order": 4,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 23
+      }
+    ],
+    "demographics": {
+      "age": 44,
+      "gender": "Non-binary",
+      "student_status": "Not a Student",
+      "income_level": "High (Above $153,000/year)",
+      "education_level": "PhD",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_60",
+    "poi_sequence": [
+      {
+        "name": "Marines Officer Selection Office",
+        "edge": "957690880#0",
+        "order": 1,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 85
+      },
+      {
+        "name": "Geology",
+        "edge": "-860279679#3",
+        "order": 2,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 51
+      },
+      {
+        "name": "Geology",
+        "edge": "-860279679#3",
+        "order": 3,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 36
+      },
+      {
+        "name": "Molecular Sciences",
+        "edge": "-860279679#3",
+        "order": 4,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 88
+      },
+      {
+        "name": "Parking MB/MF",
+        "edge": "971884815",
+        "order": 5,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 23
+      }
+    ],
+    "demographics": {
+      "age": 61,
+      "gender": "Non-binary",
+      "student_status": "Not a Student",
+      "income_level": "Medium ($58,000-$153,000/year)",
+      "education_level": "Master",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_61",
+    "poi_sequence": [
+      {
+        "name": "Pokitomik",
+        "edge": "763033285#0",
+        "order": 1,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 27
+      },
+      {
+        "name": "Italian Cultural Institute",
+        "edge": "197409444#4",
+        "order": 2,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 49
+      },
+      {
+        "name": "UCLA Hill Top Store",
+        "edge": "",
+        "order": 3,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 40
+      },
+      {
+        "name": "UCLA Transportation",
+        "edge": "1014343601#0",
+        "order": 4,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 54
+      },
+      {
+        "name": "Print Center",
+        "edge": "603531529#0",
+        "order": 5,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 58
+      }
+    ],
+    "demographics": {
+      "age": 46,
+      "gender": "Male",
+      "student_status": "Not a Student",
+      "income_level": "High (Above $153,000/year)",
+      "education_level": "Bachelor",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_62",
+    "poi_sequence": [
+      {
+        "name": "Sharetea",
+        "edge": "-288116297#7",
+        "order": 1,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 54
+      },
+      {
+        "name": "Parking 4",
+        "edge": "",
+        "order": 2,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 63
+      },
+      {
+        "name": "Phenix",
+        "edge": "13377861#0",
+        "order": 3,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 51
+      },
+      {
+        "name": "Parking 4",
+        "edge": "",
+        "order": 4,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 78
+      },
+      {
+        "name": "Parking MB/MF",
+        "edge": "971884815",
+        "order": 5,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 89
+      }
+    ],
+    "demographics": {
+      "age": 21,
+      "gender": "Female",
+      "student_status": "Undergraduate",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "Bachelor",
+      "work_status": "Part-time"
+    }
+  },
+  {
+    "agent_id": "agent_63",
+    "poi_sequence": [
+      {
+        "name": "Cafe 1919",
+        "edge": "",
+        "order": 1,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 82
+      },
+      {
+        "name": "Lucy in the Sky",
+        "edge": "957690880#0",
+        "order": 2,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 53
+      },
+      {
+        "name": "Gary's Custom Tailor",
+        "edge": "-13377861#3",
+        "order": 3,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 53
+      }
+    ],
+    "demographics": {
+      "age": 25,
+      "gender": "Male",
+      "student_status": "Graduate",
+      "income_level": "High (Above $153,000/year)",
+      "education_level": "Master",
+      "work_status": "Full-time"
+    }
+  },
+  {
+    "agent_id": "agent_64",
+    "poi_sequence": [
+      {
+        "name": "Young Hall",
+        "edge": "-860279679#3",
+        "order": 1,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 43
+      },
+      {
+        "name": "Marines Officer Selection Office",
+        "edge": "957690880#0",
+        "order": 2,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 57
+      },
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 3,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 21
+      },
+      {
+        "name": "Cafe 1919",
+        "edge": "",
+        "order": 4,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 48
+      },
+      {
+        "name": "Campus Store",
+        "edge": "763033287#0",
+        "order": 5,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 23
+      }
+    ],
+    "demographics": {
+      "age": 23,
+      "gender": "Male",
+      "student_status": "Undergraduate",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "Master",
+      "work_status": "Full-time"
+    }
+  },
+  {
+    "agent_id": "agent_65",
+    "poi_sequence": [
+      {
+        "name": "Marines Officer Selection Office",
+        "edge": "957690880#0",
+        "order": 1,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 41
+      },
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 2,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 38
+      },
+      {
+        "name": "Salon Ash",
+        "edge": "763033288#0",
+        "order": 3,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 89
+      },
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 4,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 40
+      },
+      {
+        "name": "UCLA Bike Shop",
+        "edge": "",
+        "order": 5,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 31
+      },
+      {
+        "name": "Parking 4",
+        "edge": "",
+        "order": 6,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 84
+      }
+    ],
+    "demographics": {
+      "age": 49,
+      "gender": "Non-binary",
+      "student_status": "Not a Student",
+      "income_level": "High (Above $153,000/year)",
+      "education_level": "High School",
+      "work_status": "Full-time"
+    }
+  },
+  {
+    "agent_id": "agent_66",
+    "poi_sequence": [
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 1,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 71
+      },
+      {
+        "name": "Parking 4",
+        "edge": "",
+        "order": 2,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 30
+      },
+      {
+        "name": "Lazy Daisy",
+        "edge": "-176996126#3",
+        "order": 3,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 56
+      },
+      {
+        "name": "Marines Officer Selection Office",
+        "edge": "957690880#0",
+        "order": 4,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 65
+      },
+      {
+        "name": "Cafe 451",
+        "edge": "",
+        "order": 5,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 60
+      }
+    ],
+    "demographics": {
+      "age": 32,
+      "gender": "Female",
+      "student_status": "Graduate",
+      "income_level": "Medium ($58,000-$153,000/year)",
+      "education_level": "PhD",
+      "work_status": "Full-time"
+    }
+  },
+  {
+    "agent_id": "agent_67",
+    "poi_sequence": [
+      {
+        "name": "Parking MB/MF",
+        "edge": "971884815",
+        "order": 1,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 42
+      },
+      {
+        "name": "Float Lab Westwood",
+        "edge": "957690880#0",
+        "order": 2,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 26
+      },
+      {
+        "name": "Flax Pen to Paper",
+        "edge": "-288116297#7",
+        "order": 3,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 23
+      }
+    ],
+    "demographics": {
+      "age": 55,
+      "gender": "Male",
+      "student_status": "Not a Student",
+      "income_level": "High (Above $153,000/year)",
+      "education_level": "High School",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_68",
+    "poi_sequence": [
+      {
+        "name": "Rocket Fizz",
+        "edge": "957690880#0",
+        "order": 1,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 69
+      },
+      {
+        "name": "UCLA Transportation",
+        "edge": "1014343601#0",
+        "order": 2,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 82
+      },
+      {
+        "name": "Parking 4",
+        "edge": "",
+        "order": 3,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 64
+      }
+    ],
+    "demographics": {
+      "age": 69,
+      "gender": "Male",
+      "student_status": "Not a Student",
+      "income_level": "High (Above $153,000/year)",
+      "education_level": "Bachelor",
+      "work_status": "Full-time"
+    }
+  },
+  {
+    "agent_id": "agent_69",
+    "poi_sequence": [
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 1,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 23
+      },
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 2,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 49
+      },
+      {
+        "name": "The Study at Hedrick",
+        "edge": "55783709#0",
+        "order": 3,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 29
+      },
+      {
+        "name": "Geology",
+        "edge": "-860279679#3",
+        "order": 4,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 48
+      },
+      {
+        "name": "Northern Caf\u00e9",
+        "edge": "-288116297#7",
+        "order": 5,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 84
+      },
+      {
+        "name": "The Vape Lounge",
+        "edge": "132495023#0",
+        "order": 6,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 54
+      }
+    ],
+    "demographics": {
+      "age": 66,
+      "gender": "Non-binary",
+      "student_status": "Not a Student",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "Bachelor",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_70",
+    "poi_sequence": [
+      {
+        "name": "Italian Express",
+        "edge": "-825533534#3",
+        "order": 1,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 88
+      },
+      {
+        "name": "Parking MB/MF",
+        "edge": "971884815",
+        "order": 2,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 64
+      },
+      {
+        "name": "House of Meatballs",
+        "edge": "-288116297#7",
+        "order": 3,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 90
+      },
+      {
+        "name": "Italian Cultural Institute",
+        "edge": "197409444#4",
+        "order": 4,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 57
+      }
+    ],
+    "demographics": {
+      "age": 19,
+      "gender": "Male",
+      "student_status": "Undergraduate",
+      "income_level": "Medium ($58,000-$153,000/year)",
+      "education_level": "PhD",
+      "work_status": "Part-time"
+    }
+  },
+  {
+    "agent_id": "agent_71",
+    "poi_sequence": [
+      {
+        "name": "Geology",
+        "edge": "-860279679#3",
+        "order": 1,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 44
+      },
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 2,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 78
+      },
+      {
+        "name": "Westwood Copies",
+        "edge": "288116297#0",
+        "order": 3,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 37
+      },
+      {
+        "name": "Parking MB/MF",
+        "edge": "971884815",
+        "order": 4,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 73
+      }
+    ],
+    "demographics": {
+      "age": 27,
+      "gender": "Male",
+      "student_status": "Graduate",
+      "income_level": "High (Above $153,000/year)",
+      "education_level": "Bachelor",
+      "work_status": "Part-time"
+    }
+  },
+  {
+    "agent_id": "agent_72",
+    "poi_sequence": [
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 1,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 74
+      },
+      {
+        "name": "Parking 4",
+        "edge": "",
+        "order": 2,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 24
+      },
+      {
+        "name": "Bruin Plate",
+        "edge": "55783710#0",
+        "order": 3,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 86
+      },
+      {
+        "name": "Smoke Spot",
+        "edge": "176996126#0",
+        "order": 4,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 77
+      },
+      {
+        "name": "European Wax Center",
+        "edge": "44651956#0",
+        "order": 5,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 34
+      },
+      {
+        "name": "Insomnia Cookies",
+        "edge": "1055030390#0",
+        "order": 6,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 34
+      }
+    ],
+    "demographics": {
+      "age": 54,
+      "gender": "Non-binary",
+      "student_status": "Not a Student",
+      "income_level": "High (Above $153,000/year)",
+      "education_level": "High School",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_73",
+    "poi_sequence": [
+      {
+        "name": "Geology",
+        "edge": "-860279679#3",
+        "order": 1,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 51
+      },
+      {
+        "name": "Parking MB/MF",
+        "edge": "971884815",
+        "order": 2,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 44
+      },
+      {
+        "name": "UCLA Store Market",
+        "edge": "",
+        "order": 3,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 20
+      }
+    ],
+    "demographics": {
+      "age": 53,
+      "gender": "Non-binary",
+      "student_status": "Not a Student",
+      "income_level": "Medium ($58,000-$153,000/year)",
+      "education_level": "High School",
+      "work_status": "Full-time"
+    }
+  },
+  {
+    "agent_id": "agent_74",
+    "poi_sequence": [
+      {
+        "name": "T-Mobile",
+        "edge": "44651956#0",
+        "order": 1,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 52
+      },
+      {
+        "name": "Parking 4",
+        "edge": "",
+        "order": 2,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 33
+      },
+      {
+        "name": "Corner Bakery",
+        "edge": "957690880#0",
+        "order": 3,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 26
+      },
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 4,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 74
+      }
+    ],
+    "demographics": {
+      "age": 34,
+      "gender": "Non-binary",
+      "student_status": "Graduate",
+      "income_level": "High (Above $153,000/year)",
+      "education_level": "Master",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_75",
+    "poi_sequence": [
+      {
+        "name": "Denny's",
+        "edge": "-825533534#3",
+        "order": 1,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 49
+      },
+      {
+        "name": "UCLA Transportation",
+        "edge": "1014343601#0",
+        "order": 2,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 69
+      },
+      {
+        "name": "UCLA Transportation",
+        "edge": "1014343601#0",
+        "order": 3,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 57
+      },
+      {
+        "name": "Profeta",
+        "edge": "159608998#0",
+        "order": 4,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 84
+      }
+    ],
+    "demographics": {
+      "age": 64,
+      "gender": "Male",
+      "student_status": "Not a Student",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "Master",
+      "work_status": "Part-time"
+    }
+  },
+  {
+    "agent_id": "agent_76",
+    "poi_sequence": [
+      {
+        "name": "UCLA Bike Shop",
+        "edge": "",
+        "order": 1,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 46
+      },
+      {
+        "name": "Profeta",
+        "edge": "159608998#0",
+        "order": 2,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 58
+      },
+      {
+        "name": "Parking MB/MF",
+        "edge": "971884815",
+        "order": 3,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 64
+      },
+      {
+        "name": "Mr. Noodle",
+        "edge": "-13442541#3",
+        "order": 4,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 63
+      }
+    ],
+    "demographics": {
+      "age": 59,
+      "gender": "Non-binary",
+      "student_status": "Not a Student",
+      "income_level": "High (Above $153,000/year)",
+      "education_level": "Bachelor",
+      "work_status": "Part-time"
+    }
+  },
+  {
+    "agent_id": "agent_77",
+    "poi_sequence": [
+      {
+        "name": "Platinum Black",
+        "edge": "957690880#0",
+        "order": 1,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 41
+      },
+      {
+        "name": "Toranj",
+        "edge": "-825533534#3",
+        "order": 2,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 27
+      },
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 3,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 77
+      },
+      {
+        "name": "Pokitomik",
+        "edge": "763033285#0",
+        "order": 4,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 48
+      }
+    ],
+    "demographics": {
+      "age": 31,
+      "gender": "Non-binary",
+      "student_status": "Graduate",
+      "income_level": "High (Above $153,000/year)",
+      "education_level": "Master",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_78",
+    "poi_sequence": [
+      {
+        "name": "The Vape Lounge",
+        "edge": "132495023#0",
+        "order": 1,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 47
+      },
+      {
+        "name": "Revive Cafe",
+        "edge": "-13386844#1",
+        "order": 2,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 75
+      },
+      {
+        "name": "Parking 4",
+        "edge": "",
+        "order": 3,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 60
+      },
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 4,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 67
+      },
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 5,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 32
+      },
+      {
+        "name": "Marines Officer Selection Office",
+        "edge": "957690880#0",
+        "order": 6,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 61
+      }
+    ],
+    "demographics": {
+      "age": 33,
+      "gender": "Non-binary",
+      "student_status": "Not a Student",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "PhD",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_79",
+    "poi_sequence": [
+      {
+        "name": "Parking MB/MF",
+        "edge": "971884815",
+        "order": 1,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 90
+      },
+      {
+        "name": "Molecular Sciences",
+        "edge": "-860279679#3",
+        "order": 2,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 29
+      },
+      {
+        "name": "Italian Cultural Institute",
+        "edge": "197409444#4",
+        "order": 3,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 82
+      },
+      {
+        "name": "Marines Officer Selection Office",
+        "edge": "957690880#0",
+        "order": 4,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 68
+      },
+      {
+        "name": "Bollywood Bites",
+        "edge": "288116297#0",
+        "order": 5,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 24
+      },
+      {
+        "name": "Parking MB/MF",
+        "edge": "971884815",
+        "order": 6,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 64
+      },
+      {
+        "name": "Italian Cultural Institute",
+        "edge": "197409444#4",
+        "order": 7,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 49
+      }
+    ],
+    "demographics": {
+      "age": 23,
+      "gender": "Non-binary",
+      "student_status": "Not a Student",
+      "income_level": "Medium ($58,000-$153,000/year)",
+      "education_level": "Bachelor",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_80",
+    "poi_sequence": [
+      {
+        "name": null,
+        "edge": "44651956#0",
+        "order": 1,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 90
+      },
+      {
+        "name": "GSBC",
+        "edge": "610339130#4",
+        "order": 2,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 90
+      },
+      {
+        "name": "ScAi Lab",
+        "edge": "",
+        "order": 3,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 28
+      }
+    ],
+    "demographics": {
+      "age": 31,
+      "gender": "Female",
+      "student_status": "Graduate",
+      "income_level": "High (Above $153,000/year)",
+      "education_level": "PhD",
+      "work_status": "Part-time"
+    }
+  },
+  {
+    "agent_id": "agent_81",
+    "poi_sequence": [
+      {
+        "name": "Print Center",
+        "edge": "603531529#0",
+        "order": 1,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 22
+      },
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 2,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 79
+      },
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 3,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 38
+      },
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 4,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 29
+      }
+    ],
+    "demographics": {
+      "age": 42,
+      "gender": "Male",
+      "student_status": "Not a Student",
+      "income_level": "Medium ($58,000-$153,000/year)",
+      "education_level": "Bachelor",
+      "work_status": "Part-time"
+    }
+  },
+  {
+    "agent_id": "agent_82",
+    "poi_sequence": [
+      {
+        "name": "Starbucks",
+        "edge": "603531529#5",
+        "order": 1,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 71
+      },
+      {
+        "name": "Central Ticket Office",
+        "edge": "495920254#0",
+        "order": 2,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 50
+      },
+      {
+        "name": "Alfred",
+        "edge": "44651956#0",
+        "order": 3,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 77
+      },
+      {
+        "name": "Pokitomik",
+        "edge": "763033285#0",
+        "order": 4,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 68
+      }
+    ],
+    "demographics": {
+      "age": 53,
+      "gender": "Male",
+      "student_status": "Not a Student",
+      "income_level": "High (Above $153,000/year)",
+      "education_level": "Bachelor",
+      "work_status": "Full-time"
+    }
+  },
+  {
+    "agent_id": "agent_83",
+    "poi_sequence": [
+      {
+        "name": "The Coffee Bean & Tea Leaf",
+        "edge": "197409448#0",
+        "order": 1,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 23
+      },
+      {
+        "name": "Frida",
+        "edge": "-825533534#3",
+        "order": 2,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 61
+      },
+      {
+        "name": null,
+        "edge": "44651956#0",
+        "order": 3,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 55
+      },
+      {
+        "name": "Frida",
+        "edge": "-825533534#3",
+        "order": 4,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 52
+      }
+    ],
+    "demographics": {
+      "age": 30,
+      "gender": "Male",
+      "student_status": "Graduate",
+      "income_level": "High (Above $153,000/year)",
+      "education_level": "PhD",
+      "work_status": "Full-time"
+    }
+  },
+  {
+    "agent_id": "agent_84",
+    "poi_sequence": [
+      {
+        "name": "Target",
+        "edge": "610339130#0",
+        "order": 1,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 74
+      },
+      {
+        "name": "Plateia",
+        "edge": "495920254#0",
+        "order": 2,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 43
+      },
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 3,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 40
+      },
+      {
+        "name": "UCLA Store",
+        "edge": "",
+        "order": 4,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 38
+      },
+      {
+        "name": "Geology",
+        "edge": "-860279679#3",
+        "order": 5,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 64
+      }
+    ],
+    "demographics": {
+      "age": 43,
+      "gender": "Non-binary",
+      "student_status": "Not a Student",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "PhD",
+      "work_status": "Part-time"
+    }
+  },
+  {
+    "agent_id": "agent_85",
+    "poi_sequence": [
+      {
+        "name": "Molecular Sciences",
+        "edge": "-860279679#3",
+        "order": 1,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 88
+      },
+      {
+        "name": "Happy Panda Chinese Hot Pot",
+        "edge": "-288116297#7",
+        "order": 2,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 21
+      },
+      {
+        "name": "CAVA",
+        "edge": "957690880#0",
+        "order": 3,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 25
+      },
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 4,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 24
+      }
+    ],
+    "demographics": {
+      "age": 47,
+      "gender": "Non-binary",
+      "student_status": "Not a Student",
+      "income_level": "Medium ($58,000-$153,000/year)",
+      "education_level": "Master",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_86",
+    "poi_sequence": [
+      {
+        "name": "GSBC",
+        "edge": "610339130#4",
+        "order": 1,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 65
+      },
+      {
+        "name": "Sport Rush",
+        "edge": "603531529#0",
+        "order": 2,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 38
+      },
+      {
+        "name": "Elysee",
+        "edge": "288116297#0",
+        "order": 3,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 54
+      },
+      {
+        "name": "Salon Ash",
+        "edge": "763033288#0",
+        "order": 4,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 42
+      },
+      {
+        "name": "Evelyn & Mo Ostin Music Cafe",
+        "edge": "-860279679#3",
+        "order": 5,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 51
+      },
+      {
+        "name": "Bruin Buzz",
+        "edge": "",
+        "order": 6,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 42
+      }
+    ],
+    "demographics": {
+      "age": 63,
+      "gender": "Male",
+      "student_status": "Not a Student",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "High School",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_87",
+    "poi_sequence": [
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 1,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 63
+      },
+      {
+        "name": "Parking MB/MF",
+        "edge": "971884815",
+        "order": 2,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 40
+      },
+      {
+        "name": "Float Lab Westwood",
+        "edge": "957690880#0",
+        "order": 3,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 44
+      }
+    ],
+    "demographics": {
+      "age": 27,
+      "gender": "Male",
+      "student_status": "Graduate",
+      "income_level": "High (Above $153,000/year)",
+      "education_level": "PhD",
+      "work_status": "Part-time"
+    }
+  },
+  {
+    "agent_id": "agent_88",
+    "poi_sequence": [
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 1,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 85
+      },
+      {
+        "name": "ScAi Lab",
+        "edge": "",
+        "order": 2,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 47
+      },
+      {
+        "name": "Young Hall",
+        "edge": "-860279679#3",
+        "order": 3,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 26
+      },
+      {
+        "name": "UCLA Store Market",
+        "edge": "",
+        "order": 4,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 24
+      }
+    ],
+    "demographics": {
+      "age": 18,
+      "gender": "Non-binary",
+      "student_status": "Undergraduate",
+      "income_level": "High (Above $153,000/year)",
+      "education_level": "High School",
+      "work_status": "Full-time"
+    }
+  },
+  {
+    "agent_id": "agent_89",
+    "poi_sequence": [
+      {
+        "name": "Flax Pen to Paper",
+        "edge": "-288116297#7",
+        "order": 1,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 82
+      },
+      {
+        "name": "Denny's",
+        "edge": "-825533534#3",
+        "order": 2,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 22
+      },
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 3,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 90
+      },
+      {
+        "name": "Blaze Pizza",
+        "edge": "",
+        "order": 4,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 56
+      },
+      {
+        "name": "Parking MB/MF",
+        "edge": "971884815",
+        "order": 5,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 71
+      },
+      {
+        "name": "Kerckhoff Coffee House",
+        "edge": "",
+        "order": 6,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 47
+      },
+      {
+        "name": "Italian Cultural Institute",
+        "edge": "197409444#4",
+        "order": 7,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 38
+      }
+    ],
+    "demographics": {
+      "age": 20,
+      "gender": "Non-binary",
+      "student_status": "Undergraduate",
+      "income_level": "Medium ($58,000-$153,000/year)",
+      "education_level": "High School",
+      "work_status": "Full-time"
+    }
+  },
+  {
+    "agent_id": "agent_90",
+    "poi_sequence": [
+      {
+        "name": "Young Hall",
+        "edge": "-860279679#3",
+        "order": 1,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 89
+      },
+      {
+        "name": "Northern Lights",
+        "edge": "",
+        "order": 2,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 33
+      },
+      {
+        "name": "Aahs!",
+        "edge": "603531531#0",
+        "order": 3,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 86
+      },
+      {
+        "name": "FedEx Office",
+        "edge": "-603531529#4",
+        "order": 4,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 25
+      },
+      {
+        "name": "Parking 4",
+        "edge": "",
+        "order": 5,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 81
+      }
+    ],
+    "demographics": {
+      "age": 35,
+      "gender": "Male",
+      "student_status": "Not a Student",
+      "income_level": "Medium ($58,000-$153,000/year)",
+      "education_level": "High School",
+      "work_status": "Part-time"
+    }
+  },
+  {
+    "agent_id": "agent_91",
+    "poi_sequence": [
+      {
+        "name": "Westwood Flower Garden",
+        "edge": "288116297#0",
+        "order": 1,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 24
+      },
+      {
+        "name": "Smoke Spot",
+        "edge": "176996126#0",
+        "order": 2,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 69
+      },
+      {
+        "name": "Slichter Hall",
+        "edge": "-860279679#3",
+        "order": 3,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 33
+      }
+    ],
+    "demographics": {
+      "age": 18,
+      "gender": "Female",
+      "student_status": "Undergraduate",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "PhD",
+      "work_status": "Part-time"
+    }
+  },
+  {
+    "agent_id": "agent_92",
+    "poi_sequence": [
+      {
+        "name": "Fama",
+        "edge": "132495023#0",
+        "order": 1,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 38
+      },
+      {
+        "name": "Parking MB/MF",
+        "edge": "971884815",
+        "order": 2,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 67
+      },
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 3,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 25
+      },
+      {
+        "name": "Young Hall",
+        "edge": "-860279679#3",
+        "order": 4,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 64
+      }
+    ],
+    "demographics": {
+      "age": 41,
+      "gender": "Non-binary",
+      "student_status": "Not a Student",
+      "income_level": "Medium ($58,000-$153,000/year)",
+      "education_level": "PhD",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_93",
+    "poi_sequence": [
+      {
+        "name": "Geology",
+        "edge": "-860279679#3",
+        "order": 1,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 39
+      },
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 2,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 33
+      },
+      {
+        "name": "Parking 4",
+        "edge": "",
+        "order": 3,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 36
+      },
+      {
+        "name": "Revive Cafe",
+        "edge": "-13386844#1",
+        "order": 4,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 35
+      },
+      {
+        "name": "Young Hall",
+        "edge": "-860279679#3",
+        "order": 5,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 41
+      },
+      {
+        "name": "Parking 4",
+        "edge": "",
+        "order": 6,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 34
+      }
+    ],
+    "demographics": {
+      "age": 29,
+      "gender": "Non-binary",
+      "student_status": "Graduate",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "PhD",
+      "work_status": "Full-time"
+    }
+  },
+  {
+    "agent_id": "agent_94",
+    "poi_sequence": [
+      {
+        "name": "Junbi",
+        "edge": "603531529#5",
+        "order": 1,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 33
+      },
+      {
+        "name": "Lollicup",
+        "edge": "",
+        "order": 2,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 78
+      },
+      {
+        "name": "Marines Officer Selection Office",
+        "edge": "957690880#0",
+        "order": 3,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 31
+      },
+      {
+        "name": "Lulu",
+        "edge": "607194239#0",
+        "order": 4,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 50
+      },
+      {
+        "name": "ScAi Lab",
+        "edge": "",
+        "order": 5,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 56
+      },
+      {
+        "name": "Parking 4",
+        "edge": "",
+        "order": 6,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 87
+      },
+      {
+        "name": "Freddy and Liana's",
+        "edge": "603531529#0",
+        "order": 7,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 52
+      }
+    ],
+    "demographics": {
+      "age": 54,
+      "gender": "Female",
+      "student_status": "Not a Student",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "Master",
+      "work_status": "Part-time"
+    }
+  },
+  {
+    "agent_id": "agent_95",
+    "poi_sequence": [
+      {
+        "name": "Gary's Custom Tailor",
+        "edge": "-13377861#3",
+        "order": 1,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 72
+      },
+      {
+        "name": "Platinum Black",
+        "edge": "957690880#0",
+        "order": 2,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 59
+      },
+      {
+        "name": "Parking MB/MF",
+        "edge": "971884815",
+        "order": 3,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 83
+      },
+      {
+        "name": "Mr. Noodle",
+        "edge": "-13442541#3",
+        "order": 4,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 43
+      }
+    ],
+    "demographics": {
+      "age": 66,
+      "gender": "Female",
+      "student_status": "Not a Student",
+      "income_level": "High (Above $153,000/year)",
+      "education_level": "High School",
+      "work_status": "Not Working"
+    }
+  },
+  {
+    "agent_id": "agent_96",
+    "poi_sequence": [
+      {
+        "name": null,
+        "edge": "44651956#0",
+        "order": 1,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 49
+      },
+      {
+        "name": "Parking MB/MF",
+        "edge": "971884815",
+        "order": 2,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 47
+      },
+      {
+        "name": "Parking SV",
+        "edge": "-13304001#6",
+        "order": 3,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 64
+      },
+      {
+        "name": "Elysee",
+        "edge": "288116297#0",
+        "order": 4,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 57
+      }
+    ],
+    "demographics": {
+      "age": 29,
+      "gender": "Male",
+      "student_status": "Graduate",
+      "income_level": "High (Above $153,000/year)",
+      "education_level": "Bachelor",
+      "work_status": "Part-time"
+    }
+  },
+  {
+    "agent_id": "agent_97",
+    "poi_sequence": [
+      {
+        "name": "Parking 7",
+        "edge": "-810151348#4",
+        "order": 1,
+        "type": "parking",
+        "activity_type": "transport",
+        "stop_duration": 81
+      },
+      {
+        "name": "Slichter Hall",
+        "edge": "-860279679#3",
+        "order": 2,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 72
+      },
+      {
+        "name": "Marines Officer Selection Office",
+        "edge": "957690880#0",
+        "order": 3,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 66
+      },
+      {
+        "name": "Platinum Black",
+        "edge": "957690880#0",
+        "order": 4,
+        "type": "shop",
+        "activity_type": "shopping",
+        "stop_duration": 71
+      }
+    ],
+    "demographics": {
+      "age": 20,
+      "gender": "Non-binary",
+      "student_status": "Undergraduate",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "Master",
+      "work_status": "Part-time"
+    }
+  },
+  {
+    "agent_id": "agent_98",
+    "poi_sequence": [
+      {
+        "name": "Junbi",
+        "edge": "603531529#5",
+        "order": 1,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 22
+      },
+      {
+        "name": "Marines Officer Selection Office",
+        "edge": "957690880#0",
+        "order": 2,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 27
+      },
+      {
+        "name": "Marines Officer Selection Office",
+        "edge": "957690880#0",
+        "order": 3,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 59
+      }
+    ],
+    "demographics": {
+      "age": 64,
+      "gender": "Female",
+      "student_status": "Not a Student",
+      "income_level": "High (Above $153,000/year)",
+      "education_level": "PhD",
+      "work_status": "Full-time"
+    }
+  },
+  {
+    "agent_id": "agent_99",
+    "poi_sequence": [
+      {
+        "name": "Mr. Noodle",
+        "edge": "-13442541#3",
+        "order": 1,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 75
+      },
+      {
+        "name": "Just Boba Tea House",
+        "edge": "132495023#0",
+        "order": 2,
+        "type": "restaurant",
+        "activity_type": "food",
+        "stop_duration": 45
+      },
+      {
+        "name": "UCLA Transportation",
+        "edge": "1014343601#0",
+        "order": 3,
+        "type": "office",
+        "activity_type": "work",
+        "stop_duration": 41
+      }
+    ],
+    "demographics": {
+      "age": 51,
+      "gender": "Male",
+      "student_status": "Not a Student",
+      "income_level": "Low (Below $58,000/year)",
+      "education_level": "Master",
+      "work_status": "Part-time"
+    }
+  }
+]

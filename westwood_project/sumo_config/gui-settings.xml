@@ -1,0 +1,49 @@
+<viewsettings>
+    <scheme name="real world">
+        <opengl dither="0"/>
+        <background backgroundColor="200,200,200" showGrid="0" gridXSize="100.00" gridYSize="100.00"/>
+        
+        <!-- Road Network Colors -->
+        <edges 
+            laneShowBorders="1" 
+            showLinkDecals="1" 
+            showRails="1" 
+            hideConnectors="0" 
+            widthExaggeration="1.5"
+            laneWidthExaggeration="1">
+            <colorScheme name="uniform">
+                <entry color="255,255,255"/>
+            </colorScheme>
+        </edges>
+        
+        <!-- Our POIs (restaurants/cafes) -->
+        <pois 
+            poi_show="1"
+            poi_size="100"
+            poi_exaggeration="1"
+            poi_name_show="1"
+            poi_name_size="80"
+            poi_name_color="0,0,0"
+            poi_name_constant_size="1"
+            show_poi_ids="0"
+            show_poi_names="1"
+            drawName="1"
+            nameAttribute="name"/>
+            
+        <!-- Land Use Polygons -->
+        <polygons 
+            show="1"
+            fill="1"
+            layer="-2"/>
+            
+        <legend showSizeLegend="1"/>
+        <timing delay="20"/>
+    </scheme>
+    
+    <global>
+        <pois>
+            <show-ids value="0"/>
+            <show-names value="1"/>
+        </pois>
+    </global>
+</viewsettings> 

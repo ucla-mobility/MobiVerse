@@ -1,0 +1,18 @@
+<additional>
+    <taz id="starbucks_1">
+        <tazSource value="-12345"/>  <!-- Replace with actual edge ID near Starbucks -->
+        <tazSink value="-12345"/>    <!-- Same edge ID -->
+    </taz>
+    <taz id="ucla_campus">
+        <tazSource value="-12346"/>  <!-- Replace with actual edge ID near UCLA -->
+        <tazSink value="-12346"/>
+    </taz>
+    <taz id="whole_foods">
+        <tazSource value="-12347"/>  <!-- Replace with actual edge ID near Whole Foods -->
+        <tazSink value="-12347"/>
+    </taz>
+    <taz id="target">
+        <tazSource value="-12348"/>  <!-- Replace with actual edge ID near Target -->
+        <tazSink value="-12348"/>
+    </taz>
+</additional> 
