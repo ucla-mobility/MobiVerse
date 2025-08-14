@@ -14,6 +14,10 @@ MobiVerse is an advanced urban mobility simulation platform that integrates Larg
 <img src="resources/images/flow_diagram_1.png" alt="Mobiverse UI showing interactive route modification, simulation environment, and realtime agent monitoring" height="300"/>
 </div>
 
+<div align="center">
+<em>Figure 1: MobiVerse system overview showing interactive route modification, simulation environment, and real-time agent monitoring</em>
+</div>
+
 ### Key Features
 
 #### **Intelligent AI Agents**
@@ -75,14 +79,14 @@ mobiverse/
 - **Steps**: Deploy population synthesis at scale → Apply demographic stratification → Generate base activity chains → Enable LLM-powered behavioral adaptation → Validate against census and survey data
 - **Applications**: Urban planning, transportation demand modeling, policy impact assessment, demographic representation analysis
 
-Figure 1 illustrates how individual agents structure their daily activities and adapt their mobility patterns based on personal characteristics and environmental feedback.
+Figure 2 illustrates how individual agents structure their daily activities and adapt their mobility patterns based on personal characteristics and environmental feedback.
 
 <div align="center">
 <img src="resources/images/student_schedule.png" alt="Student daily schedule showing mobility patterns" height="300"/>
 </div>
 
 <div align="center">
-<em>Figure 1: Daily schedule of a student showing mobility decision patterns and activity chains</em>
+<em>Figure 2: Daily schedule of a student showing mobility decision patterns and activity chains</em>
 </div>
 
 ### 3. Dynamic Event Response and Infrastructure Analysis
@@ -96,14 +100,14 @@ Unlike traditional methods that rely on pre-programmed rules and historical patt
 - **Processing Rate**: 2,050 agents per minute for activity replanning, 200 agents per minute for route computation
 - **Applications**: Crisis response planning, adaptive transportation systems, novel scenario modeling
 
-As shown in Figure 2, the system architecture demonstrates how demographic characteristics influence agent decision-making through LLM-powered reasoning when responding to environmental changes.
+As shown in Figure 3, the system architecture demonstrates how demographic characteristics influence agent decision-making through LLM-powered reasoning when responding to environmental changes.
 
 <div align="center">
 <img src="resources/images/flow_diagram_2.png" alt="System architecture with demographic behavior example" height="500"/>
 </div>
 
 <div align="center">
-<em>Figure 2: System architecture with an example of a college student reacting to different kinds of environment changes</em>
+<em>Figure 3: System architecture with an example of a college student reacting to different kinds of environment changes</em>
 </div>
 
 #### 3.2 Large-Scale Event Impact Modeling for Novel Scenarios
@@ -113,14 +117,14 @@ As shown in Figure 2, the system architecture demonstrates how demographic chara
 - **Case Study**: LA 2028 Olympic Soccer Final simulation with 1,000+ attendees demonstrating platform capabilities for novel event scenarios
 - **Applications**: Event planning for unprecedented scenarios, demographic-specific event modeling, local community impact analysis
 
-Figure 3 demonstrates the system's capability to model significant traffic pattern changes during major events, showing clear differences in vehicle density distributions.
+Figure 4 demonstrates the system's capability to model significant traffic pattern changes during major events, showing clear differences in vehicle density distributions.
 
 <div align="center">
 <img src="resources/images/heat_map.png" alt="Vehicle density heat map comparison" height="300"/>
 </div>
 
 <div align="center">
-<em>Figure 3: Vehicle density heat map at 9:30 am: (a) baseline traffic without event, (b) traffic during the Olympic soccer event</em>
+<em>Figure 4: Vehicle density heat map at 9:30 am: (a) baseline traffic without event, (b) traffic during the Olympic soccer event</em>
 </div>
 
 #### 3.3 Infrastructure Resilience and Emergency Response to Unforeseen Failures
@@ -129,13 +133,13 @@ Figure 3 demonstrates the system's capability to model significant traffic patte
 - **Key Advantage**: Responds to unprecedented infrastructure failures and road closure events (e.g., unexpected bridge collapses, water main breaks causing road closures, power outages affecting traffic signals, construction equipment blocking lanes) by reasoning about the situation rather than following rigid contingency plans
 - **Applications**: Novel disaster preparedness, unforeseen emergency scenario planning, adaptive infrastructure resilience assessment
 
-Figure 4 shows how the system models traffic rerouting patterns when infrastructure disruptions occur, enabling comprehensive resilience analysis.
+Figure 5 shows how the system models traffic rerouting patterns when infrastructure disruptions occur, enabling comprehensive resilience analysis.
 
 <div align="center">
 <img src="resources/images/road_closure.png" alt="Road closure simulation" width="300"/>
 </div>
 <div align="center">
-<em>Figure 4: Road closure simulation with traffic rerouting patterns and network adaptation</em>
+<em>Figure 5: Road closure simulation with traffic rerouting patterns and network adaptation</em>
 </div>
 
 ## Installation
@@ -255,10 +259,18 @@ python dynamic_control.py
 
 ### 3. LLM-Powered Activity Chain Modification
 
-#### Customize Behavioral Adaptation Prompts
+#### System and User Prompts
 **File**: `westwood_project/utilities/prompt_manager.py`
 
-The LLM component uses structured prompts that include agent demographics, environmental conditions, and contextual information to generate realistic behavioral adaptations.
+MobiVerse provides comprehensive system and user prompt templates for LLM interactions. The `prompt_manager.py` contains all prompt templates used for behavioral adaptation, including structured prompts that incorporate agent demographics, environmental conditions, and contextual information to generate realistic behavioral responses.
+
+<div align="center">
+<img src="resources/images/prompt.png" alt="Example LLM prompt structure and response" height="400"/>
+</div>
+
+<div align="center">
+<em>Figure 6: Example of LLM prompt structure showing how agent demographics and environmental context are integrated for behavioral adaptation</em>
+</div>
 
 #### Key Customization Areas:
 - **Prompt templates**: Structured prompts for different adaptation scenarios (road closures, congestion, events)
@@ -280,7 +292,7 @@ The LLM component uses structured prompts that include agent demographics, envir
 </div>
 
 <div align="center">
-<em>System architecture and component relationships</em>
+<em>Figure 7: System architecture and component relationships</em>
 </div>
 
 ## Configuration Files
@@ -344,5 +356,18 @@ If you use MobiVerse in your research, please cite our paper:
 }
 ```
 
+## Related Work
+
+Related papers from our research group, some of which could potentially be integrated into MobiVerse:
+
+- **Deep activity model: A generative approach for human mobility pattern synthesis.** Liao, X., Jiang, Q., He, B. Y., Liu, Y., Kuai, C., & Ma, J. (2024). *arXiv preprint arXiv:2405.17468*.
+
+- **Human Mobility Modeling with Household Coordination Activities under Limited Information via Retrieval-Augmented LLMs.** Liu, Y., Liao, X., Ma, H., He, B. Y., Stanford, C., & Ma, J. (2024). *arXiv preprint arXiv:2409.17495*.
+
+- **Mobility AI agents and networks.** Ma, H., Liu, Y., Jiang, Q., He, B. Y., Liao, X., & Ma, J. (2024). *IEEE Transactions on Intelligent Vehicles*.
+
+- **Next-Generation Travel Demand Modeling with a Generative Framework for Household Activity Coordination.** Liao, X., Ma, H., Liu, Y., Wei, Y., He, B. Y., Stanford, C., & Ma, J. (2025). *arXiv preprint arXiv:2507.08871*.
+
 ## License
-MIT License - see LICENSE file for details.
+
+MobiVerse is licensed under an Academic Software License for non-commercial research only. Academic and nonprofit researchers are permitted to use, copy, and make derivative works of the software solely for educational or academic research purposes. Commercial use is prohibited under this license. See the LICENSE file for details and possible opportunities for commercial use.
